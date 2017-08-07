@@ -1,0 +1,12 @@
+---
+title: "Some notes"
+---
+
+Cnam's course notes can be found on [Moodle](https://moodle.lecnam.net/). Here some old handouts (in French) :
+
++ Probabilit&eacute; et statistique pour les  sciences de la vie [pdf](/Polys/DeugB.pdf)
++ M&eacute;thodes math&eacute;matiques pour les sciences de la vie [pdf](/Polys/M23.pdf)
++ Cha&icirc;nes de Markov pour  les sciences de la vie [pdf](/Polys/Biol.pdf)
++ Introduction aux statistiques appliqu&eacute;es (orient&eacute; agronomie)  [pdf](/Polys/Dea_bio.pdf)
++ Compl&eacute;ment sur les processus [pdf]( /Polys/Dea_mer.pdf)
+

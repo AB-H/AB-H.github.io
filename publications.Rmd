@@ -1,26 +1,35 @@
----------------
-title: Liste de publications
---------------
+---
+title: "List of publications:"
+---
 
-The purpose of this page is to present my research work or at least the resulting publications. A complete list can be found [here]( ).<br><br>
+<br><br>
+The purpose of this page is to present my research work or at least the resulting publications. A complete list can be found [here](https://github.com/AB-H/AB-H.github.io/raw/master/publications.pdf).<br><br>
 
-### List of publications:<br><br>
 
-<p>Mes publications depuis 2015 (en date du 02 février, 2016) sont :</p>
-<ul>
-<li><p>A. Bar-Hen, J.-M. Poggi (2016). Influence Measures and Stability for Graphical Models. Accepté dans Journal of Multivariate
-Analysis</p></li>
-<li><p>P. Barbillon, S. Donnet, E. Lazega and A. Bar-Hen (2016). Stochastic Block Model for Multiplex network: an application to a multilevel
-network of researchers. Accepté dans Journal of the Royal Statistical Society: Series A</p></li>
-<li><p>A. Bar-Hen, M. Emily and N. Picard (2015). Spatial Cluster Detection Using Nearest Neighbour Distance. Spatial Statistics 14,
-400-411.</p></li>
-<li><p>A. Bar-Hen, N. Villa-Vialaneix &amp; H. Javaux (2015). Analyse statistique des profils et de l’activité des participants d’un MOOC.
-Revue Internationale Des Technologies En Pédagogie Universitaire 12:(1-2), 11-22.</p></li>
-<li><p>A. Bar-Hen, P. Zylberman (2015) La presse parisienne et la grippe « espagnole » (1918-1920). Les tribunes de la santé, 47,
-35-49</p></li>
-<li><p>L. Wang, C. Clavaud, A. Bar-Hen, C. Meng, J. Gao, Y. Liu, C. Liu, N. Shibagaki, A. Gueniche, R. Jourdain, K. Lan, Z. Chiyu, R.
-Altmeyer, L. Breton (2015) : Characterization of the major bacterial-fungal populations colonizing dandruff scalps in Shanghai, China, shows
-microbial disequilibrium. Experimental Dermatology, 24:5 398-400.</p></li>
-<li><p>A. Bar-Hen, S. Gey, J.-M. Poggi (2015) : Influence measures for CART Classification Trees. Journal of Classification. J. Classif., 32:1
-21–45</p></li>
-</ul>
+### Publications since 2015 
+
++ Sedeaud, A.; Sauliere, G.; Marquet, L.A.; Del Vecchio, S.; Bar-Hen, A.; Toussaint, J.F. (2017): Collective effectiveness in the
+XV de France: selections and time matter. *European Journal of Sport Science*, 17:6, 656-664 [pdf](https://www.researchgate.net/profile/Adrien_Sedeaud/publication/314979990_Collective_effectiveness_in_the_XV_de_France_selections_and_time_matter/links/58c91885aca2723ab18131a7/Collective-effectiveness-in-the-XV-de-France-selections-and-time-matter.pdf)
++ P. Barbillon, S. Donnet, E. Lazega and A. Bar-Hen (2017). Stochastic Block Model for Multiplex network: an application to a multilevel network of researchers.
+*Journal of the Royal Statistical Society: Series A*, 180, 295-314 [pdf](https://hal.archives-ouvertes.fr/hal-01520820/document)
++ Hemono, M., Puig-Malet, S., Zylberman, P., Bar-Hen, A., Sauerborn, R., Schutte, S., ... & Depoux, A. (2016). Review of published articles on climate change and
+health in two francophone newspapers: 1990-2015. *The European Journal of Public Health*, 26(suppl 1), ckw174-031. [pdf](https://www.waset.org/abstracts/environmental-and-ecological-engineering/48710)
++ Du, T., Bar-Hen, A., Bhatia, J. S., and Wolpowitz, D. (2016). Loss of Papillary Dermal Calcitonin Gene Related Peptide-Expressing Neurons Significantly Correlates
+with Uremic Pruritus. *Journal of Investigative Dermatology*, 136(11), 2323-2325. [pdf](http://www.sciencedirect.com/science/article/pii/S0022202X16321182?via%3Dihub)
++ A. Flahault, A. Bar-Hen, N. Paragios. (2016) Public Health and Epidemiology Informatics. *IMIA Yearbook*, 240-246 [pdf](https://www.schattauer.de/index.php?id=5236&mid=26834&L=1)
++ N. Herlihly, A. Bar-Hen, G. Verner, H. Fischer, R. Sauerborn, A. Depoux, A. Flahault, S. Schutte. (2016) Climate Change and Human Health: What Are The Research
+Trends? A scoping review protocol. *BMJ Open*, 6:12, e012022. [pdf](http://bmjopen.bmj.com/content/6/12/e012022)
++ E. Lazega, A. Bar-Hen, P. Barbillon and S. Donnet, (2016). Effects of competition on collective learning in advice networks. *Social Networks* 47, 1-14. [pdf](http://elazega.fr/wp-content/uploads/2012/10/Competition-and-learning-Social-Networks-2016.pdf)
++ C. Loucoubar, A.V. Grant, J.-F. Bureau, I. Casademont, N. Ardo Bar, A. Bar-Hen, M.T. Diop, J. Faye, F. Diene Sarr, A. Badiane, A. Tall, J.-F. Trape, F. Cliquet, B.
+Schwikowski, M. Lathrop, R.E. Paul, A. Sakuntabhai (2016). Detecting multi-way epistasis in family-based association studies.  *Briefings in Bioinformatics*, 18 (3), 394-402 [pdf](https://academic.oup.com/bib/article-abstract/18/3/394/2453295/Detecting-multi-way-epistasis-in-family-based?redirectedFrom=fulltext)
++ A. Bar-Hen, J.-M. Poggi (2016). Influence Measures and Stability for Graphical Models. *Journal of Multivariate Analysis* 147, 145-154 [pdf](https://www.researchgate.net/profile/Avner_Bar-Hen/publication/292211486_Influence_measures_and_stability_for_graphical_models/links/56af306c08ae19a385173739.pdf)
++ A. Bar-Hen, M. Emily and N. Picard (2015). Spatial Cluster Detection Using Nearest Neighbour Distance. *Spatial Statistics* 14, 400-411. [pdf](https://www.researchgate.net/publication/282598657_Spatial_cluster_detection_using_nearest_neighbor_distance)
++ A. Bar-Hen, N. Villa-Vialaneix & H. Javaux (2015). Analyse statistique des profils et de l'activite des participants d'un MOOC. *Revue Internationale Des Technologies
+En Pedagogie Universitaire* 12:(1-2), 11-22. [pdf](https://www.erudit.org/en/journals/ritpu/2015-v12-n1-2-ritpu02919/1038836ar.pdf)
++ E. Variani, K. Lahouel, A. Bar-Hen, B. Jedynak (2015) : Non-Adaptive Policies for 20 Questions Target Localization, *IEEE International Symposium on Information
+Theory (ISIT)* 775-778. [pdf](https://arxiv.org/pdf/1504.05996.pdf)
++ A. Bar-Hen, P. Zylberman (2015) La presse parisienne et la grippe "espagnole" (1918-1920). *Les tribunes de la sante*, 47, 35-49 [pdf](http://www.cairn.info/article.php?ID_ARTICLE=SEVE_047_0035)
++ L. Wang, C. Clavaud, A. Bar-Hen, C. Meng, J. Gao, Y. Liu, C. Liu, N. Shibagaki, A. Gueniche, R. Jourdain, K. Lan, Z. Chiyu, R. Altmeyer, L. Breton (2015) : Characterization
+of the major bacterial-fungal populations colonizing dandruff scalps in Shanghai, China, shows microbial disequilibrium. *Experimental Dermatology*,
+24:5 398-400. [pdf](http://onlinelibrary.wiley.com/doi/10.1111/exd.12684/abstract)
++ A. Bar-Hen, S. Gey, J.-M. Poggi (2015) : Influence measures for CART Classification Trees. Journal of Classification. *J. Classif.*, 32:1 21-45 [pdf](https://hal.archives-ouvertes.fr/hal-00562039/file/cart.influence.pdf)

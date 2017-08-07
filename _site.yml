@@ -6,9 +6,9 @@ navbar:
     - text: "home"
       href: index.html
     - text: "Publications"
-      href: index.html
-    - text: "Teaching experience"
-      href: index.html
+      href: publications.html
+    - text: "Teaching"
+      href: Cours.html
     - text: "Blog(s)"
       menu:
         - text: Sciences et Avenir
