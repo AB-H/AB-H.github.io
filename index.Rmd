@@ -1,5 +1,40 @@
 ---
-title: "My Website"
+title: ""
 ---
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-Hello, Website!
+  ga('create', 'UA-85450191-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<br/><br/><br/><br/>
+<div class="row">
+<div class="col-xs-12 col-sm-5 text-center">
+<br/>
+<img src="https://github.com/AB-H/AB-H.github.io/raw/master/avner1.jpg" alt="coffee" style="width:400px;" align = "top"/> 
+</div>
+<div class="col-xs-12 col-sm-7">
+<span style="font-family:myFancyFont; font-size:3em;">These days I like to discuss</span>
+<br>
+
+* M&eacute;thodes statistiques de data-mining et apprentissage [MSDMA](https://cedric.cnam.fr/index.php/labo/MSDMA) (team of [CEDRIC](http://cedric.cnam.fr/))
+* &Eacute;quipe P&eacute;dagogique National : Math&eacute;matiques et Statistiques [EPN6](http://maths.cnam.fr/)
+* Scientific Committee of Haut Conseil des Biotechnologies [HCB](http://www.hautconseildesbiotechnologies.fr/fr)
+* Master en sciences, technologies mention *statistique*
+    * parcours *Sciences des donn&eacute;es* [site](http://formation.cnam.fr/rechercher-par-discipline/master-statistique-sciences-des-donnees-813205.kjsp)
+    * parcours *Statistique du risque pour la finance et l'assurance* [site](http://formation.cnam.fr/rechercher-par-discipline/master-statistique-du-risque-pour-la-finance-et-l-assurance-813203.kjsp)
+* Research in stat
+
+<span style="font-family:myFancyFont; font-size:3em;">over coffee...</span>
+
+</div>
+</div>
+
+
+<br/><br/><br/>
+
+***
