@@ -1,0 +1,26 @@
+---------------
+title: Liste de publications
+--------------
+
+The purpose of this page is to present my research work or at least the resulting publications. A complete list can be found [here]( ).<br><br>
+
+### List of publications:<br><br>
+
+<p>Mes publications depuis 2015 (en date du 02 février, 2016) sont :</p>
+<ul>
+<li><p>A. Bar-Hen, J.-M. Poggi (2016). Influence Measures and Stability for Graphical Models. Accepté dans Journal of Multivariate
+Analysis</p></li>
+<li><p>P. Barbillon, S. Donnet, E. Lazega and A. Bar-Hen (2016). Stochastic Block Model for Multiplex network: an application to a multilevel
+network of researchers. Accepté dans Journal of the Royal Statistical Society: Series A</p></li>
+<li><p>A. Bar-Hen, M. Emily and N. Picard (2015). Spatial Cluster Detection Using Nearest Neighbour Distance. Spatial Statistics 14,
+400-411.</p></li>
+<li><p>A. Bar-Hen, N. Villa-Vialaneix &amp; H. Javaux (2015). Analyse statistique des profils et de l’activité des participants d’un MOOC.
+Revue Internationale Des Technologies En Pédagogie Universitaire 12:(1-2), 11-22.</p></li>
+<li><p>A. Bar-Hen, P. Zylberman (2015) La presse parisienne et la grippe « espagnole » (1918-1920). Les tribunes de la santé, 47,
+35-49</p></li>
+<li><p>L. Wang, C. Clavaud, A. Bar-Hen, C. Meng, J. Gao, Y. Liu, C. Liu, N. Shibagaki, A. Gueniche, R. Jourdain, K. Lan, Z. Chiyu, R.
+Altmeyer, L. Breton (2015) : Characterization of the major bacterial-fungal populations colonizing dandruff scalps in Shanghai, China, shows
+microbial disequilibrium. Experimental Dermatology, 24:5 398-400.</p></li>
+<li><p>A. Bar-Hen, S. Gey, J.-M. Poggi (2015) : Influence measures for CART Classification Trees. Journal of Classification. J. Classif., 32:1
+21–45</p></li>
+</ul>
