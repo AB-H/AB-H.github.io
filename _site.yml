@@ -22,7 +22,7 @@ navbar:
 
 output:
   html_document:
-    theme: journal
+    theme: spacelab
     include:
       after_body: footer.html
     highlight: textmate
