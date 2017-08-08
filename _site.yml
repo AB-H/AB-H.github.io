@@ -15,7 +15,7 @@ navbar:
           href: http://statistique.blogs.sciencesetavenir.fr/
         - text: TheConversation
           href: https://theconversation.com/fr/search?utf8=%E2%9C%93&q=Avner+Bar-Hen&sort=recency&language=fr&date=all&date_from=&date_to=
-    - text: "I was there"
+    - text: "Past"
       href: Past.html
     - text: "Contact"
       href: contact.html

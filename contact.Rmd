@@ -1,19 +1,31 @@
 ---
-title: Contact
+title: ""
 ---
 
+
+<div class="row">
+<div class="col-xs-12 col-sm-4">
 You can reach me at this email address: [avner@cnam.fr](mailto:avner@cnam.fr)
 	
 You can also find me at:
 
->  [Conservatoire National des Arts et Métiers](http://www.cnam.fr)<br>
-> EPN 6 : Mathématique et statistique <br>
-> Bureau 35-3-13<br>
-> 2, rue Conté <br>
-> 75003 Paris<br>
-> Tel : 01 40 27 23 21
+[Conservatoire National des Arts et Métiers](http://www.cnam.fr)<br>
+EPN 6 : Mathématique et statistique <br>
+Bureau 35-3-12<br>
+2, rue Conté <br>
+75003 Paris<br>
+Tel : 01 40 27 23 21
 
-<br><br>
+
+</div>
+<div class="col-xs-12 col-sm-4 text-center" class="google-maps">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2624.598222957803!2d2.3565048!3d48.8658714!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e0556a8bc7b%3A0xa9426bca6ed95de1!2s2+Rue+Cont%C3%A9%2C+75003+Paris!5e0!3m2!1sfr!2sfr!4v1502194629844" width="310" height="240" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+<div class="col-xs-12 col-sm-4 text-center">
+<a href="https://github.com/AB-H/AB-H.github.io/raw/master/conte.png">
+ <img  src="https://github.com/AB-H/AB-H.github.io/raw/master/conte.png" alt="2 rue Conté" style="width:600px;" align = "bottom" allowfullscreen/> 
+</a>
+</div>
+</div>
 
 ### Some links about me:<br><br>
 
@@ -31,5 +43,7 @@ You can also find me at:
   <i class="fa fa-user-circle"></i>Scholar Google
  </a>
 </div>
+
+<br><br>
 
 
