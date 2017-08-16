@@ -37,3 +37,12 @@ map {
         height: 100% !important;
     }
     
+#rStudioHeader .rStudio .logo {
+  display: inline-block;
+  width: 70px;
+  height: 25px;
+  background-image:url(https://github.com/AB-H/AB-H.github.io/raw/master/avner1.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
