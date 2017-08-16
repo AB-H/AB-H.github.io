@@ -19,7 +19,7 @@ title: ""
 </div>
 <div class="col-xs-12 col-sm-7">
 <span style="font-family:myFancyFont; font-size:3em;">These days I like to discuss</span>
-<br>
+<br><br/>
 
 * M&eacute;thodes statistiques de data-mining et apprentissage [MSDMA](https://cedric.cnam.fr/index.php/labo/MSDMA) (team of [CEDRIC](http://cedric.cnam.fr/))
 * &Eacute;quipe P&eacute;dagogique National : Math&eacute;matiques et Statistiques [EPN6](http://maths.cnam.fr/)
