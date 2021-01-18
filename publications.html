@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -20,8 +21,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -30,10 +31,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -68,9 +71,7 @@ h6 {
 
 <link rel="stylesheet" href="css\style.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -89,8 +90,14 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -106,7 +113,6 @@ body {
   padding-top: 57px;
   margin-top: -57px;
 }
-
 .section h2 {
   padding-top: 57px;
   margin-top: -57px;
@@ -126,6 +132,43 @@ body {
 .section h6 {
   padding-top: 57px;
   margin-top: -57px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -147,19 +190,73 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -176,7 +273,7 @@ $(document).ready(function () {
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        
+
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
@@ -191,7 +288,7 @@ $(document).ready(function () {
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     Blog(s)
-     
+
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
@@ -223,25 +320,22 @@ $(document).ready(function () {
 </div>
 
 
-<p><br><br> The purpose of this page is to present my research work or at least the resulting publications. A complete list can be found <a href="https://github.com/AB-H/AB-H.github.io/raw/master/publications.pdf">here</a>.<br><br></p>
-<div id="publications-since-2015" class="section level3">
-<h3>Publications since 2015</h3>
+<p><br><br> The purpose of this page is to present my research work or at least the resulting publications. A complete list can be found <a href="https://github.com/AB-H/AB-H.github.io/tree/master/publications.pdf">here</a>.<br><br></p>
+<div id="publications-since-2016" class="section level3">
+<h3>Publications since 2017</h3>
 <ul>
+<li>A. Bar-Hen, P. Barbillon, S. Donnet (2020) Block models for generalized multipartite networks: Applications in ecology and ethnobiology. Accepté pour publication dans  <em> Statistical Modelling. </em></li>
+<li>C. Andrade, A. Villers, G. Balent, A. Bar-Hen, J. Chadoeuf, D. Cylly, D. Cluzeau, G. Fried, S. Guillocheau, O. Pillon, E. Porcher, J. Tressou, O. Yamada, N. Lenne, J. Jullien & P. Monestiez (2020) A real-world implementation of a nationwide, long-term monitoring program to assess the impact of agrochemicals and agricultural practices on biodiversity. Accepté pour publication dans  <em>Ecology and Evolution </em>.</li>
+<li>K. Zagalo, L. Cucu-Grosjean, A. Bar-Hen (2020). Identification of execution modes for real-time systems using cluster analysis. In 2020 25th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA) (Vol. 1, pp. 1-4)</li>
+<li>C Desjonquères, F Rybak, JS Ulloa, A Kempf, A Bar Hen, J Sueur (2018) : Monitoring the acoustic activity of an aquatic insect population in relation to temperature, vegetation and noise. <em>Freshwater Biology</em>  65:1,107-116. <a href="https://doi.org/10.1111/fwb.13171">pdf</a></li>
+<li>C. Corbière, N. Thome, A. Bar-Hen, M. Cord, P. Pérez (2019) : Addressing Failure Detection by Learning Model Confidence, <em> J. Advances in Neural Information Processing Systems (NeurIPS) </em>, décembre 2019, Vancouver, Canada,</li>
+<li>T. Duchemin, A. Bar-Hen, R. Lounissi, W. Dab and M.N. Hocine (2019) : Hierarchizing Determinants of Sick Leave. Insights From a Survey on Health and Well-being at the Workplace.   <em> J. Occup. Environ. Med. </em>,  61 (8), e340-e347</li>
+<li>G Berthelot, A Bar-Hen, A Marck, V Foulonneau, S Douady, P Noirez, PB Zablocki-Thomas, J. da Silva Antero, PA Carter, JM Di Meglio, JF Toussaint (2019) : An integrative modeling approach to the age-performance relationship in mammals at the cellular scale <em>Scientific reports</em> 9:1, 418 <a href="https://www.nature.com/articles/s41598-018-36707-3">pdf</a></li>
+<li>M. Mariadassou, A. Bar-Hen, and H. Kishino. (2019) : Tree Evaluation and Robustness Testing. In: Ranganathan, S., Gribskov, M., Nakai, K., and Schönbach, C. (eds.) <em>Encyclopedia of Bioinformatics and Computational Biology</em>, pp. 736–745, Academic Press, Oxford. <a href="https://www.researchgate.net/profile/Avner_Bar-Hen/publication/323790639_Tree_Evaluation_and_Robustness_Testing/links/5b6857d9a6fdcc1883481cf8/Tree-Evaluation-and-Robustness-Testing.pdf">pdf</a></li>
+<li>M Woringer, N Martiny, S Porgho, BW Bicaba, A Bar-Hen, JE Mueller (2018) : Atmospheric Dust, Early Cases, and Localized Meningitis Epidemics in the African Meningitis Belt: An Analysis Using High Spatial Resolution Data <em> Environmental health perspectives</em> 126 (9), CID: 097002 <a href="https://doi.org/10.1289/EHP2752">pdf</a></li>
+<li>T Delespierre, P Denormandie, A Bar-Hen, L Josseran (2017) : Empirical advances with text mining of electronic health records. <em>BMC medical informatics and decision making</em> 17:1, 127 <a href="https://doi.org/10.1186/s12911-017-0519-0">pdf</a></li>
 <li>Sedeaud, A.; Saulière, G.; Marquet, L.A.; Del Vecchio, S.; Bar-Hen, A.; Toussaint, J.F. (2017): Collective effectiveness in the XV de France: selections and time matter. <em>European Journal of Sport Science</em>, 17:6, 656-664 <a href="https://www.researchgate.net/profile/Adrien_Sedeaud/publication/314979990_Collective_effectiveness_in_the_XV_de_France_selections_and_time_matter/links/58c91885aca2723ab18131a7/Collective-effectiveness-in-the-XV-de-France-selections-and-time-matter.pdf">pdf</a></li>
 <li>P. Barbillon, S. Donnet, E. Lazega and A. Bar-Hen (2017). Stochastic Block Model for Multiplex network: an application to a multilevel network of researchers. <em>Journal of the Royal Statistical Society: Series A</em>, 180, 295-314 <a href="https://hal.archives-ouvertes.fr/hal-01520820/document">pdf</a></li>
-<li>Hemono, M., Puig-Malet, S., Zylberman, P., Bar-Hen, A., Sauerborn, R., Schütte, S., … &amp; Depoux, A. (2016). Review of published articles on climate change and health in two francophone newspapers: 1990-2015. <em>The European Journal of Public Health</em>, 26(suppl 1), ckw174-031. <a href="https://www.waset.org/abstracts/environmental-and-ecological-engineering/48710">pdf</a></li>
-<li>Du, T., Bar-Hen, A., Bhatia, J. S., and Wolpowitz, D. (2016). Loss of Papillary Dermal Calcitonin Gene Related Peptide-Expressing Neurons Significantly Correlates with Uremic Pruritus. <em>Journal of Investigative Dermatology</em>, 136(11), 2323-2325. <a href="http://www.sciencedirect.com/science/article/pii/S0022202X16321182?via%3Dihub">pdf</a></li>
-<li>A. Flahault, A. Bar-Hen, N. Paragios. (2016) Public Health and Epidemiology Informatics. <em>IMIA Yearbook</em>, 240-246 <a href="https://www.schattauer.de/index.php?id=5236&amp;mid=26834&amp;L=1">pdf</a></li>
-<li>N. Herlihly, A. Bar-Hen, G. Verner, H. Fischer, R. Sauerborn, A. Depoux, A. Flahault, S. Schütte. (2016) Climate Change and Human Health: What Are The Research Trends? A scoping review protocol. <em>BMJ Open</em>, 6:12, e012022. <a href="http://bmjopen.bmj.com/content/6/12/e012022">pdf</a></li>
-<li>E. Lazega, A. Bar-Hen, P. Barbillon and S. Donnet, (2016). Effects of competition on collective learning in advice networks. <em>Social Networks</em> 47, 1-14. <a href="http://elazega.fr/wp-content/uploads/2012/10/Competition-and-learning-Social-Networks-2016.pdf">pdf</a></li>
-<li>C. Loucoubar, A.V. Grant, J.-F. Bureau, I. Casademont, N. Ardo Bar, A. Bar-Hen, M.T. Diop, J. Faye, F. Diene Sarr, A. Badiane, A. Tall, J.-F. Trape, F. Cliquet, B. Schwikowski, M. Lathrop, R.E. Paul, A. Sakuntabhai (2016). Detecting multi-way epistasis in family-based association studies. <em>Briefings in Bioinformatics</em>, 18 (3), 394-402 <a href="https://academic.oup.com/bib/article-abstract/18/3/394/2453295/Detecting-multi-way-epistasis-in-family-based?redirectedFrom=fulltext">pdf</a></li>
-<li>A. Bar-Hen, J.-M. Poggi (2016). Influence Measures and Stability for Graphical Models. <em>Journal of Multivariate Analysis</em> 147, 145-154 <a href="https://www.researchgate.net/profile/Avner_Bar-Hen/publication/292211486_Influence_measures_and_stability_for_graphical_models/links/56af306c08ae19a385173739.pdf">pdf</a></li>
-<li>A. Bar-Hen, M. Emily and N. Picard (2015). Spatial Cluster Detection Using Nearest Neighbour Distance. <em>Spatial Statistics</em> 14, 400-411. <a href="https://www.researchgate.net/publication/282598657_Spatial_cluster_detection_using_nearest_neighbor_distance">pdf</a></li>
-<li>A. Bar-Hen, N. Villa-Vialaneix &amp; H. Javaux (2015). Analyse statistique des profils et de l’activité des participants d’un MOOC. <em>Revue Internationale Des Technologies En Pédagogie Universitaire</em> 12:(1-2), 11-22. <a href="https://www.erudit.org/en/journals/ritpu/2015-v12-n1-2-ritpu02919/1038836ar.pdf">pdf</a></li>
-<li>E. Variani, K. Lahouel, A. Bar-Hen, B. Jedynak (2015) : Non-Adaptive Policies for 20 Questions Target Localization, <em>IEEE International Symposium on Information Theory (ISIT)</em> 775-778. <a href="https://arxiv.org/pdf/1504.05996.pdf">pdf</a></li>
-<li>A. Bar-Hen, P. Zylberman (2015) La presse parisienne et la grippe “espagnole” (1918-1920). <em>Les tribunes de la santé</em>, 47, 35-49 <a href="http://www.cairn.info/article.php?ID_ARTICLE=SEVE_047_0035">pdf</a></li>
-<li>L. Wang, C. Clavaud, A. Bar-Hen, C. Meng, J. Gao, Y. Liu, C. Liu, N. Shibagaki, A. Gueniche, R. Jourdain, K. Lan, Z. Chiyu, R. Altmeyer, L. Breton (2015) : Characterization of the major bacterial-fungal populations colonizing dandruff scalps in Shanghai, China, shows microbial disequilibrium. <em>Experimental Dermatology</em>, 24:5 398-400. <a href="http://onlinelibrary.wiley.com/doi/10.1111/exd.12684/abstract">pdf</a></li>
-<li>A. Bar-Hen, S. Gey, J.-M. Poggi (2015) : Influence measures for CART Classification Trees. Journal of Classification. <em>J. Classif.</em>, 32:1 21-45 <a href="https://hal.archives-ouvertes.fr/hal-00562039/file/cart.influence.pdf">pdf</a></li>
 </ul>
 </div>
 
@@ -263,6 +357,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
