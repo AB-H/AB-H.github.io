@@ -48,6 +48,6 @@ Tracks *Data Science* and *Risk statistics for finance and insurance* at [Cnam](
 
 ## Research interests
 
-Spatial statistics · Graphical models and networks · Influence measures and stability · Classification trees · Statistics for life sciences and public health.
+Spatial statistics · Networks and block models · Influence measures and stability · Classification trees and ensemble methods · Probabilistic real-time systems · Statistics for life sciences, ecology and public health.
 
 See the [publications](publications.qmd) page, or my [Google Scholar profile](https://scholar.google.fr/citations?user=JZ3uW60AAAAJ) for an up-to-date list.

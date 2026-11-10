@@ -11,7 +11,7 @@ website:
   title: "Avner Bar-Hen"
   site-url: https://www.bar-hen.net
   description: "Avner Bar-Hen — Professor of Statistics at Cnam, Paris."
-  favicon: images/avner.jpg
+  favicon: images/favicon.png
   page-navigation: false
   navbar:
     right:
