@@ -1,0 +1,175 @@
+---
+title: "Co-authors"
+subtitle: "A small network analysis of my publications"
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: data
+library(yaml)
+library(igraph)
+library(jsonlite)
+
+ego  <- "A. Bar-Hen"
+pubs <- yaml::read_yaml("publications.yml")
+
+# Authors of each publication (truncated lists "et al." are kept as given)
+authors_of <- function(p) {
+  a <- trimws(strsplit(p$authors, ",")[[1]])
+  a <- a[!a %in% c("", "et al.", "…", "...")]
+  unique(a)
+}
+pub_df <- data.frame(
+  year     = vapply(pubs, function(p) as.integer(p$year), 1L),
+  type     = vapply(pubs, function(p) p$categories[[1]], ""),
+  n_auth   = vapply(pubs, function(p) length(authors_of(p)), 1L)
+)
+auth_list <- lapply(pubs, function(p) setdiff(authors_of(p), ego))
+
+# One row per (publication, co-author)
+links <- do.call(rbind, Map(function(a, y, i) {
+  if (length(a)) data.frame(pub = i, author = a, year = y) else NULL
+}, auth_list, pub_df$year, seq_along(pubs)))
+
+co <- aggregate(pub ~ author, data = links, FUN = length)
+names(co)[2] <- "papers"
+co$first <- aggregate(year ~ author, data = links, FUN = min)$year
+co$last  <- aggregate(year ~ author, data = links, FUN = max)$year
+co <- co[order(-co$papers, co$author), ]
+
+# Co-author graph (without me): an edge joins two co-authors of a same paper
+pairs <- do.call(rbind, lapply(auth_list, function(a) {
+  if (length(a) < 2) return(NULL)
+  m <- t(combn(sort(a), 2)); data.frame(from = m[, 1], to = m[, 2])
+}))
+pairs$weight <- 1
+pairs <- aggregate(weight ~ from + to, data = pairs, FUN = sum)
+g_all <- graph_from_data_frame(pairs, directed = FALSE,
+                               vertices = data.frame(name = co$author))
+
+# Displayed network: co-authors with at least 2 joint papers
+min_papers <- 2
+keep <- co$author[co$papers >= min_papers]
+g <- induced_subgraph(g_all, keep)
+set.seed(1)
+comm <- cluster_louvain(g, weights = E(g)$weight)
+memb <- membership(comm)
+btw  <- betweenness(g, weights = 1 / E(g)$weight, normalized = TRUE)
+
+# Name each community after its most frequent co-author
+papers_of <- setNames(co$papers, co$author)
+comm_ids  <- sort(unique(memb))
+comm_info <- do.call(rbind, lapply(comm_ids, function(k) {
+  m <- names(memb)[memb == k]
+  m <- m[order(-papers_of[m], m)]
+  data.frame(id = k, size = length(m), lead = m[1],
+             members = paste(m, collapse = ", "),
+             papers = sum(papers_of[m]))
+}))
+comm_info <- comm_info[order(-comm_info$size, -comm_info$papers), ]
+comm_info$rank <- seq_len(nrow(comm_info))
+groups  <- comm_info[comm_info$size >= 2, ]
+singles <- comm_info[comm_info$size == 1, ]
+
+stats <- list(
+  pubs        = length(pubs),
+  years       = paste(min(pub_df$year), max(pub_df$year), sep = "–"),
+  coauthors   = nrow(co),
+  repeat_co   = sum(co$papers >= 2),
+  solo        = sum(pub_df$n_auth == 1),
+  median_auth = median(pub_df$n_auth),
+  shown       = vcount(g),
+  edges       = ecount(g),
+  components  = components(g)$no,
+  communities = nrow(groups),
+  singles     = nrow(singles),
+  modularity  = round(modularity(comm), 2)
+)
+
+bridges <- head(sort(btw, decreasing = TRUE), 5)
+
+per_year <- as.data.frame(table(factor(pub_df$year,
+  levels = seq(min(pub_df$year), max(pub_df$year)))), stringsAsFactors = FALSE)
+names(per_year) <- c("year", "n")
+per_year$year <- as.integer(per_year$year)
+
+nodes <- data.frame(
+  id     = V(g)$name,
+  papers = unname(papers_of[V(g)$name]),
+  first  = co$first[match(V(g)$name, co$author)],
+  last   = co$last[match(V(g)$name, co$author)],
+  comm   = comm_info$rank[match(memb[V(g)$name], comm_info$id)],
+  btw    = round(unname(btw[V(g)$name]), 3)
+)
+edges <- igraph::as_data_frame(g, what = "edges")
+```
+
+```{r}
+#| label: payload
+#| output: asis
+payload <- list(
+  nodes = nodes, edges = edges, perYear = per_year,
+  top = head(co, 15),
+  communities = comm_info[, c("rank", "size", "lead", "members")],
+  nGroups = nrow(groups)
+)
+cat('<script>window.COAUTH = ', toJSON(payload, dataframe = "rows", auto_unbox = TRUE), ';</script>\n', sep = "")
+```
+
+::: {.stat-row}
+::: {}
+[`r stats$pubs`]{.stat-num}
+[publications, `r stats$years`]{.stat-lbl}
+:::
+::: {}
+[`r stats$coauthors`]{.stat-num}
+[distinct co-authors]{.stat-lbl}
+:::
+::: {}
+[`r stats$repeat_co`]{.stat-num}
+[co-authors on 2 papers or more]{.stat-lbl}
+:::
+::: {}
+[`r stats$median_auth`]{.stat-num}
+[authors per paper (median)]{.stat-lbl}
+:::
+:::
+
+## Publications per year
+
+::: {#viz-years .viz-root}
+:::
+
+## Most frequent co-authors
+
+::: {#viz-top .viz-root}
+:::
+
+## The co-author network
+
+Each node is a co-author with at least `r min_papers` joint papers (`r stats$shown` people); two co-authors are linked when they signed a paper together, and thicker links mean more joint papers. I am left out, since I am connected to everybody. Node size reflects the number of papers we wrote together. Hover a node for details, drag to explore, scroll to zoom.
+
+::: {.column-page}
+::: {#viz-net .viz-root}
+:::
+:::
+
+::: {#viz-comm .viz-root}
+:::
+
+### What the network says
+
+- Apart from me, the co-authors form **`r stats$communities` groups** of two people or more (Louvain algorithm, modularity `r stats$modularity`), plus `r stats$singles` co-authors with no other link: the network is made of research collaborations that hardly overlap.
+- The largest groups gather around `r paste(head(groups$lead, 6), collapse = ", ")`.
+- The co-authors who act most as **bridges** inside the network (highest betweenness) are `r paste(names(bridges), collapse = ", ")`.
+- `r stats$solo` publications are single-authored; half of the papers have `r stats$median_auth` authors or fewer.
+
+::: {.callout-note appearance="minimal"}
+Computed automatically from the [publications list](publications.qmd) each time the site is built, with R ([igraph](https://r.igraph.org/)). Author lists truncated with "et al." only include the first authors. Inspired by [Eric Marcon's bibliometrics page](https://ericmarcon.github.io/Bibliometrie/Bibliometrie.html).
+:::
+
+<script src="assets/vis-network.min.js"></script>
+<script src="assets/coauthors.js"></script>
