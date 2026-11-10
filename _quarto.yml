@@ -22,8 +22,8 @@ website:
         href: publications.qmd
       - text: Teaching
         href: teaching.qmd
-      - text: Writing
-        href: https://theconversation.com/fr/search?q=Avner+Bar-Hen&sort=recency
+      - text: Outreach
+        href: outreach.qmd
       - text: Co-authors
         href: coauthors.qmd
       - text: Career

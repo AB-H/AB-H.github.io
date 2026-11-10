@@ -1,0 +1,17 @@
+---
+title: "Outreach"
+subtitle: "Books, articles and blog posts for a general audience"
+listing:
+  id: outreach
+  contents: outreach.yml
+  template: _outreach.ejs
+  sort: false
+  page-size: 400
+  fields: [title, authors, venue, year, date, url, alt_url, categories]
+  date-format: "D MMMM YYYY"
+---
+
+Beyond research, I enjoy explaining statistics and mathematics to everyone: in books and comics, on my former Sciences et Avenir blog *Statistiquement vôtre*, in [The Conversation](https://theconversation.com/profiles/avner-bar-hen-203304) and on the CNRS blog [Images des mathématiques](https://images.math.cnrs.fr/).
+
+::: {#outreach}
+:::

@@ -59,12 +59,15 @@ comm <- cluster_louvain(g, weights = E(g)$weight)
 memb <- membership(comm)
 btw  <- betweenness(g, weights = 1 / E(g)$weight, normalized = TRUE)
 
-# Name each community after its most frequent co-author
+# Name each community after its most frequent co-author (ties: most first-authored papers)
 papers_of <- setNames(co$papers, co$author)
+firsts    <- table(vapply(pubs, function(p) authors_of(p)[1], ""))
+first_of  <- setNames(as.integer(firsts[co$author]), co$author)
+first_of[is.na(first_of)] <- 0L
 comm_ids  <- sort(unique(memb))
 comm_info <- do.call(rbind, lapply(comm_ids, function(k) {
   m <- names(memb)[memb == k]
-  m <- m[order(-papers_of[m], m)]
+  m <- m[order(-papers_of[m], -first_of[m], m)]
   data.frame(id = k, size = length(m), lead = m[1],
              members = paste(m, collapse = ", "),
              papers = sum(papers_of[m]))

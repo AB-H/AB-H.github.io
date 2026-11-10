@@ -8,6 +8,7 @@ Personal website of Avner Bar-Hen — <https://www.bar-hen.net>, built with [Qua
 |---|---|
 | Home | `index.qmd` |
 | Publications | `publications.yml` (one entry per paper; the page is `publications.qmd`) |
+| Outreach | `outreach.yml` (books, The Conversation, Images des maths, press) |
 | Teaching | `teaching.qmd` (PDFs in `files/polys/`) |
 | Career | `past.qmd` |
 | Co-authors (network analysis, R) | `coauthors.qmd`, `assets/coauthors.js` |

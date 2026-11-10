@@ -3,7 +3,14 @@
 <% for (const item of items) { %>
 <div class="pub" <%= metadataAttrs(item) %>>
   <div class="pub-title listing-title"><span class="pub-yr"><%= item.year %></span> <%= item.title %></div>
-  <div class="pub-authors listing-authors"><% const parts = String(item.authors).split('A. Bar-Hen'); parts.forEach((part, i) => { %><%= part %><% if (i < parts.length - 1) { %><strong>A. Bar-Hen</strong><% } %><% }) %></div>
+  <div class="pub-authors listing-authors"><%
+    let names = String(item.authors).split(', ');
+    if (names.length > 12) {
+      const me = names.indexOf('A. Bar-Hen');
+      const head = names.slice(0, 8);
+      names = me >= 8 ? [...head, '…', 'A. Bar-Hen', `… (${names.length} authors)`] : [...head, `… (${names.length} authors)`];
+    }
+    names.forEach((n, i) => { %><%= i ? ', ' : '' %><% if (n === 'A. Bar-Hen') { %><strong>A. Bar-Hen</strong><% } else { %><%= n %><% } %><% }) %></div>
   <div class="pub-venue listing-venue"><%= item.venue %></div>
   <div class="pub-links">
     <% for (const c of (item.categories || [])) { %><span class="pub-type"><%= c %></span><% } %>
