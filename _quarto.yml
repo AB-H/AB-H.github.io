@@ -22,11 +22,7 @@ website:
       - text: Teaching
         href: teaching.qmd
       - text: Writing
-        menu:
-          - text: The Conversation
-            href: https://theconversation.com/fr/search?q=Avner+Bar-Hen&sort=recency
-          - text: Sciences et Avenir (blog archive)
-            href: http://statistique.blogs.sciencesetavenir.fr/
+        href: https://theconversation.com/fr/search?q=Avner+Bar-Hen&sort=recency
       - text: Career
         href: past.qmd
       - text: Contact

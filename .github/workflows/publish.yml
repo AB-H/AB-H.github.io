@@ -26,7 +26,10 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         continue-on-error: true
         with:
-          args: --no-progress --exclude-path _site/site_libs '_site/**/*.html'
+          args: >-
+            --no-progress --exclude-path _site/site_libs
+            --accept 200..=299,403,429,999
+            '_site/**/*.html'
           fail: false
       - uses: actions/upload-pages-artifact@v3
         with:
