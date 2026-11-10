@@ -54,10 +54,11 @@
   year: 2022
   categories: [Article]
 - title: "Work in progress: KDBench – towards open source benchmarks for measurement-based multicore WCET estimators"
-  authors: "M. Wehaiba El Khazen, K. Zagalo, H. Clarke, M. Mezouak, Y. Abdeddaïm, A. Bar-Hen, et al."
+  authors: "M. Wehaiba El Khazen, K. Zagalo, H. Clarke, M. Mezouak, Y. Abdeddaïm, A. Bar-Hen, S. Ben Amor, R. Bennour, A. Gogonel, K. Kougblenou, Y. Sorel, L. Cucu-Grosjean"
   venue: "IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS 2022), 309–312"
   year: 2022
   categories: [Conference]
+  url: https://doi.org/10.1109/rtas54340.2022.00035
 - title: "An artificial neural network functionalized by evolution"
   authors: "F. Furfaro, A. Bar-Hen, G. Berthelot"
   venue: "arXiv:2205.10118"
@@ -75,20 +76,22 @@
   year: 2021
   categories: [Article]
 - title: "A real-world implementation of a nationwide, long-term monitoring program to assess the impact of agrochemicals and agricultural practices on biodiversity"
-  authors: "C. Andrade, A. Villers, G. Balent, A. Bar-Hen, J. Chadoeuf, D. Cylly, et al."
+  authors: "C. Andrade, A. Villers, G. Balent, A. Bar-Hen, J. Chadoeuf, D. Cylly, D. Cluzeau, G. Fried, S. Guillocheau, O. Pillon, E. Porcher, J. Tressou, O. Yamada, N. Lenne, J. Jullien, P. Monestiez"
   venue: "Ecology and Evolution, 11(9), 3771–3793"
   year: 2021
   categories: [Article]
+  url: https://doi.org/10.1002/ece3.6459
 - title: "Work-in-progress: the impact of the period variation on execution time distributions of programs"
   authors: "L. Cucu-Grosjean, A. Bar-Hen, Y. Sorel, H. Clarke"
   venue: "IEEE RTCSA 2021, 204–206"
   year: 2021
   categories: [Conference]
 - title: "Aircraft numerical “twin”: a time series regression competition"
-  authors: "A. Pavao, I. Guyon, et al."
+  authors: "A. Pavao, I. Guyon, S. Nachar, F. Lebeau, M. Ghienne, L. Platon, T. Barbagelata, P. Escamilla, S. Mzali, M. Liao, S. Lassonde, A. Braun, S. Ben Amor, L. Cucu-Grosjean, M. Wehaiba El Khazen, A. Bar-Hen, A. Gogonel, A.B. Cheikh, M. Duda, J. Laugel, M. Marauri, M. Souissi, T. Lecerf, M. Elion, S. Tabtill, J. Budynek, P.L. Bouteiller, A. Penon, R.-D. Lasseri, J. Ripoche, T. Epalle"
   venue: "IEEE International Conference on Machine Learning and Applications (ICMLA 2021), 441–448"
   year: 2021
   categories: [Conference]
+  url: https://doi.org/10.1109/icmla52953.2021.00075
 - title: "Organizational change and social network resilience among scientists over 20 years: a multilevel approach"
   authors: "E. Lazega, A. Bar-Hen, B. Milard, A. Descoubet"
   venue: "5th European Conference on Social Networks"
@@ -105,10 +108,11 @@
   year: 2020
   categories: [Conference]
 - title: "An integrative modeling approach to the age-performance relationship in mammals at the cellular scale"
-  authors: "G. Berthelot, A. Bar-Hen, A. Marck, V. Foulonneau, S. Douady, P. Noirez, et al."
+  authors: "G. Berthelot, A. Bar-Hen, A. Marck, V. Foulonneau, S. Douady, P. Noirez, P.B. Zablocki-Thomas, J. da Silva Antero, P.A. Carter, J.-M. Di Meglio, J.-F. Toussaint"
   venue: "Scientific Reports, 9, 418"
   year: 2019
   categories: [Article]
+  url: https://doi.org/10.1038/s41598-018-36707-3
 - title: "Hierarchizing determinants of sick leave: insights from a survey on health and well-being at the workplace"
   authors: "T. Duchemin, A. Bar-Hen, R. Lounissi, W. Dab, M.N. Hocine"
   venue: "Journal of Occupational and Environmental Medicine, 61(8), e340–e347"
@@ -152,7 +156,7 @@
   year: 2017
   categories: [Article]
 - title: "Detecting multi-way epistasis in family-based association studies"
-  authors: "C. Loucoubar, A.V. Grant, J.-F. Bureau, I. Casademont, N.A. Bar, A. Bar-Hen, et al."
+  authors: "C. Loucoubar, A.V. Grant, J.-F. Bureau, I. Casademont, N.A. Bar, A. Bar-Hen, M. Diop, J. Faye, F.D. Sarr, A. Badiane, A. Tall, J.-F. Trape, F. Cliquet, B. Schwikowski, M. Lathrop, R.E. Paul, A. Sakuntabhai"
   venue: "Briefings in Bioinformatics, 18(3), 394–402"
   year: 2017
   categories: [Article]
@@ -234,7 +238,7 @@
   categories: [Article]
   url: https://www.cairn.info/article.php?ID_ARTICLE=SEVE_047_0035
 - title: "Characterization of the major bacterial–fungal populations colonizing dandruff scalps in Shanghai, China, shows microbial disequilibrium"
-  authors: "L. Wang, C. Clavaud, A. Bar-Hen, M. Cui, J. Gao, Y. Liu, et al."
+  authors: "L. Wang, C. Clavaud, A. Bar-Hen, M. Cui, J. Gao, Y. Liu, C. Liu, N. Shibagaki, A. Guéniche, R. Jourdain, K. Lan, C. Zhang, R. Altmeyer, L. Breton"
   venue: "Experimental Dermatology, 24(5), 398–400"
   year: 2015
   categories: [Article]
@@ -291,10 +295,11 @@
   year: 2013
   categories: [Article]
 - title: "Dandruff is associated with disequilibrium in the proportion of the major bacterial and fungal populations colonizing the scalp"
-  authors: "C. Clavaud, R. Jourdain, A. Bar-Hen, M. Tichit, C. Bouchier, F. Pouradier, et al."
+  authors: "C. Clavaud, R. Jourdain, A. Bar-Hen, M. Tichit, C. Bouchier, F. Pouradier, C. El Rawadi, J. Guillot, F. Ménard-Szczebara, L. Breton, J.-P. Latgé, I. Mouyna"
   venue: "PLoS ONE, 8(3), e58203"
   year: 2013
   categories: [Article]
+  url: https://doi.org/10.1371/journal.pone.0058203
 - title: "Quantitative assessment of preventive behaviors in France during the Fukushima nuclear crisis"
   authors: "P. Crépey, M. Pivette, A. Bar-Hen"
   venue: "PLoS ONE, 8(3), e58385"
@@ -341,10 +346,11 @@
   year: 2012
   categories: [Article]
 - title: "A short-term, multicomponent infection control program in nursing homes: a cluster randomized controlled trial"
-  authors: "K. Chami, G. Gavazzi, A. Bar-Hen, F. Carrat, B. de Wazières, B. Lejeune, et al."
+  authors: "K. Chami, G. Gavazzi, A. Bar-Hen, F. Carrat, B. de Wazières, B. Lejeune, N. Armand, M. Rainfray, J. Hajjar, F. Piette, M. Rothan-Tondeur"
   venue: "Journal of the American Medical Directors Association"
   year: 2012
   categories: [Article]
+  url: https://doi.org/10.1016/j.jamda.2012.04.008
 - title: "Spatial interpolation of circular data: application to tsunami of December 2004"
   authors: "D. Grancher, A. Bar-Hen, R. Paris, F. Lavigne, D. Brunstein"
   venue: "Advances and Applications in Statistics, 30(1), 19–29"
@@ -371,20 +377,23 @@
   year: 2011
   categories: [Article]
 - title: "An exhaustive, non-Euclidean, non-parametric data mining tool for unraveling the complexity of biological systems — novel insights into malaria"
-  authors: "C. Loucoubar, R. Paul, A. Bar-Hen, A. Huret, A. Tall, C. Sokhna, et al."
+  authors: "C. Loucoubar, R.E. Paul, A. Bar-Hen, A. Huret, A. Tall, C. Sokhna, J.-F. Trape, A.B. Ly, J. Faye, A. Badiane, G. Diakhaby, F.D. Sarr, A. Diop, A. Sakuntabhai, J.-F. Bureau"
   venue: "PLoS ONE, 6(9), e24085"
   year: 2011
   categories: [Article]
+  url: https://doi.org/10.1371/journal.pone.0024085
 - title: "Impact of changing drug treatment and malaria endemicity on the heritability of malaria phenotypes in a longitudinal family-based cohort study"
-  authors: "C. Loucoubar, B. Goncalves, A. Tall, C. Sokhna, J.-F. Trape, et al."
+  authors: "C. Loucoubar, B. Goncalves, A. Tall, C. Sokhna, J.-F. Trape, F.D. Sarr, J. Faye, A. Badiane, A.B. Ly, A. Diop, A. Bar-Hen, J.-F. Bureau, A. Sakuntabhai, R.E. Paul"
   venue: "PLoS ONE, 6(11), e26364"
   year: 2011
   categories: [Article]
+  url: https://doi.org/10.1371/journal.pone.0026364
 - title: "Variations in circulating inflammatory factors are related to changes in calorie and carbohydrate intakes early in the course of surgery-induced weight reduction"
-  authors: "E. Dalmas, C. Rouault, M. Abdennour, C. Rovere, S. Rizkalla, A. Bar-Hen, et al."
+  authors: "E. Dalmas, C. Rouault, M. Abdennour, C. Rovere, S. Rizkalla, A. Bar-Hen, J.-L. Nahon, J.-L. Bouillot, M. Guerre-Millo, K. Clément, C. Poitou"
   venue: "The American Journal of Clinical Nutrition, 94(2), 450–458"
   year: 2011
   categories: [Article]
+  url: https://doi.org/10.3945/ajcn.111.013771
 - title: "Identification des épisodes d'accident vasculaire cérébral multi-établissements dans la base du PMSI"
   authors: "O. Grimaud, F. Gao, J.-F. Philippon, A. Bar-Hen"
   venue: "Revue d'Épidémiologie et de Santé Publique, 59, S62"
@@ -482,10 +491,11 @@
   year: 2009
   categories: [Outreach]
 - title: "A paradigm of diagnostic criteria for polyarteritis nodosa: analysis of a series of 949 patients with vasculitides"
-  authors: "C. Henegar, C. Pagnoux, X. Puéchal, J.-D. Zucker, A. Bar-Hen, V. Le Guern, et al."
+  authors: "C. Henegar, C. Pagnoux, X. Puéchal, J.-D. Zucker, A. Bar-Hen, V. Le Guern, M. Saba, D. Bagnères, O. Meyer, L. Guillevin"
   venue: "Arthritis & Rheumatism, 58(5), 1528–1538"
   year: 2008
   categories: [Article]
+  url: https://doi.org/10.1002/art.23470
 - title: "European bioclimatic affinity groups: data-model comparisons"
   authors: "J.-M. Laurent, L. François, A. Bar-Hen, L. Bel, R. Cheddadi"
   venue: "Global and Planetary Change, 61(1–2), 28–40"
@@ -562,10 +572,11 @@
   year: 2007
   categories: [Article]
 - title: "A novel method for assessing insulin dose adjustments by patients with diabetes"
-  authors: "C. Choleau, A.M. Albisser, A. Bar-Hen, H. Bihan, C. Campinos, Z. Gherbi, et al."
+  authors: "C. Choleau, A.M. Albisser, A. Bar-Hen, H. Bihan, C. Campinos, Z. Gherbi, R. Jomaa, M. Aich, R. Cohen, G. Reach"
   venue: "Journal of Diabetes Science and Technology, 1(1), 3–7"
   year: 2007
   categories: [Article]
+  url: https://doi.org/10.1177/193229680700100102
 - title: "Some comments on false discovery rate"
   authors: "A. Bar-Hen, K.I. Kim, M.A. van de Wiel"
   venue: "Journal of Bioinformatics and Computational Biology, 5(4), 987–990"
@@ -577,10 +588,11 @@
   year: 2007
   categories: [Article]
 - title: "Profiling at mRNA, protein, and metabolite levels reveals alterations in renal amino acid handling and glutathione metabolism in kidney tissue of Pept2-/- mice"
-  authors: "I.M. Frey, I. Rubio-Aliaga, A. Siewert, D. Sailer, A. Drobyshev, J. Beckers, et al."
+  authors: "I.M. Frey, I. Rubio-Aliaga, A. Siewert, D. Sailer, A. Drobyshev, J. Beckers, M.H. de Angelis, J. Aubert, A. Bar-Hen, O. Fiehn, H.M. Eichinger, H. Daniel"
   venue: "Physiological Genomics, 28(3), 301–310"
   year: 2007
   categories: [Article]
+  url: https://doi.org/10.1152/physiolgenomics.00193.2006
 - title: "A constrained polynomial regression procedure for estimating the local false discovery rate"
   authors: "C. Dalmasso, A. Bar-Hen, P. Broët"
   venue: "BMC Bioinformatics, 8"
@@ -597,10 +609,11 @@
   year: 2007
   categories: [Article]
 - title: "Increased infiltration of macrophages in omental adipose tissue is associated with marked hepatic lesions in morbid human obesity"
-  authors: "R. Cancello, J. Tordjman, C. Poitou, G. Guilhem, J.-L. Bouillot, D. Hugol, et al."
+  authors: "R. Cancello, J. Tordjman, C. Poitou, G. Guilhem, J.-L. Bouillot, D. Hugol, C. Coussieu, A. Basdevant, A. Bar-Hen, P. Bedossa, M. Guerre-Millo, K. Clément"
   venue: "Diabetes, 55(6), 1554–1561"
   year: 2006
   categories: [Article]
+  url: https://doi.org/10.2337/db06-0133
 - title: "Definition of architectural ideotypes for good yield capacity in Coffea canephora"
   authors: "C. Cilas, A. Bar-Hen, C. Montagnon, C. Godin"
   venue: "Annals of Botany, 97(3), 405–411"
@@ -627,7 +640,7 @@
   year: 2006
   categories: [Article]
 - title: "Impact du climat sur quelques espèces méditerranéennes : du passé au futur"
-  authors: "R. Cheddadi, L. François, A. Bar-Hen, K. Huang, M. Demarteau, et al."
+  authors: "R. Cheddadi, L. François, A. Bar-Hen, K. Huang, M. Demarteau, A. Roujjati, A. Baali, B. Damnati, M. Taieb, J.-M. Laurent"
   venue: "In: Biodiversité et changement global, 91"
   year: 2006
   categories: [Chapter]
