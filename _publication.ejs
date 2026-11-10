@@ -1,0 +1,15 @@
+```{=html}
+<div class="list">
+<% for (const item of items) { %>
+<div class="pub" <%= metadataAttrs(item) %>>
+  <div class="pub-title listing-title"><span class="pub-yr"><%= item.year %></span> <%= item.title %></div>
+  <div class="pub-authors listing-authors"><% const parts = String(item.authors).split('A. Bar-Hen'); parts.forEach((part, i) => { %><%= part %><% if (i < parts.length - 1) { %><strong>A. Bar-Hen</strong><% } %><% }) %></div>
+  <div class="pub-venue listing-venue"><%= item.venue %></div>
+  <div class="pub-links">
+    <% if (item.url) { %><a href="<%= item.url %>">Article</a><% } %>
+    <% if (item.pdf) { %><a href="<%= item.pdf %>">PDF</a><% } %>
+  </div>
+</div>
+<% } %>
+</div>
+```
