@@ -1,6 +1,6 @@
 ---
 title: "Avner Bar-Hen"
-subtitle: "Professor of Statistics · Cnam, Paris"
+subtitle: "Professor of Statistics · Cnam, Paris<br>Deputy DRARI · Région académique Île-de-France"
 image: images/avner.jpg
 image-alt: "Portrait of Avner Bar-Hen"
 about:
@@ -30,19 +30,24 @@ Statistician. These days I like to discuss data science, statistical learning an
 
 ::: {.card-grid}
 ::: {}
+Rectorat — Île-de-France
+
+Deputy DRARI (*Délégué régional académique à la recherche et à l'innovation*), Rectorat de la région académique Île-de-France.
+:::
+::: {}
+Professor at Cnam
+
+Holder of the chair *« Statistiques et données massives »* (Statistics and Big Data) at the [Cnam](https://www.cnam.fr).
+:::
+::: {}
 Research
 
-Statistical methods for data mining and machine learning, team [MSDMA](https://cedric.cnam.fr/) of the [CEDRIC](https://cedric.cnam.fr/) lab.
+Permanent member of the Security & Defense team (ESD), also known as ESDR3C — *Sécurité & Défense – Renseignement, Criminologie, Crises, Cybermenaces*.
 :::
 ::: {}
 Teaching
 
 [EPN 6 — Mathematics & Statistics](https://maths.cnam.fr/), the national teaching team at Cnam.
-:::
-::: {}
-Master in Statistics
-
-Tracks *Data Science* and *Risk statistics for finance and insurance* at [Cnam](https://formation.cnam.fr/).
 :::
 :::
 
