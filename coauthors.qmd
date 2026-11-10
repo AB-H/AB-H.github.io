@@ -74,6 +74,58 @@ comm_info <- do.call(rbind, lapply(comm_ids, function(k) {
 }))
 comm_info <- comm_info[order(-comm_info$size, -comm_info$papers), ]
 comm_info$rank <- seq_len(nrow(comm_info))
+
+# Themes of each community: most distinctive words of the titles of its papers (TF-IDF)
+stop <- c("a","an","the","of","in","on","for","and","or","to","with","by","from","at","as","is","are","its","their",
+  "into","using","based","via","between","under","over","after","during","what","how","does","do","can","new","some",
+  "two","three","case","study","studies","application","applications","applied","approach","approaches","method",
+  "methods","analysis","data","use","results","toward","towards","work","progress","more","than","our","it","be",
+  "le","la","les","des","du","de","d","l","un","une","et","en","pour","par","sur","dans","au","aux","est","ou",
+  "que","qui","à","entre","son","ses","leur","pas","se","ce","cas","étude","analyse","application","méthode",
+  "novel","major","changing","first","high","low","large","small","real-world","short-term","long-term","significantly",
+  "associated","related","proportion","impact","effect","effects","measure","measures","test","tests")
+stem <- function(w) {
+  w <- sub("ies$", "y", w)
+  ifelse(nchar(w) > 4 & grepl("s$", w) & !grepl("(ss|us|is)$", w), sub("s$", "", w), w)
+}
+terms_of <- function(title) {
+  w <- strsplit(gsub("[^[:alnum:]À-ÿ' -]", " ", tolower(title)), "[[:space:]]+|'")[[1]]
+  w <- w[w != ""]
+  keep <- !(w %in% stop) & nchar(w) > 2 & !grepl("[0-9]", w)
+  w <- stem(w)
+  uni <- w[keep]
+  bi  <- character(0)
+  for (i in seq_len(length(w) - 1)) if (keep[i] && keep[i + 1]) bi <- c(bi, paste(w[i], w[i + 1]))
+  unique(c(uni, bi))
+}
+titles   <- vapply(pubs, function(p) p$title, "")
+pub_auth <- lapply(pubs, authors_of)
+theme_groups <- comm_info$id[comm_info$size >= 2]
+group_terms <- lapply(theme_groups, function(k) {
+  m <- names(memb)[memb == k]
+  idx <- which(vapply(pub_auth, function(a) any(a %in% m), TRUE))
+  table(unlist(lapply(titles[idx], terms_of)))
+})
+df_terms <- table(unlist(lapply(group_terms, names)))
+themes <- vapply(seq_along(theme_groups), function(i) {
+  tf <- group_terms[[i]]
+  score <- as.numeric(tf) * log(length(theme_groups) / as.numeric(df_terms[names(tf)])) *
+           ifelse(grepl(" ", names(tf)), 2.5, 1)
+  # terms found in 2+ papers of the group come first
+  ord <- names(tf)[order(-(as.numeric(tf) >= 2), -score, -as.numeric(tf))]
+  ord <- ord[score[match(ord, names(tf))] > 0]
+  chosen <- character(0)
+  for (t in ord) {
+    parts <- strsplit(t, " ")[[1]]
+    clash <- any(vapply(chosen, function(c) any(parts %in% strsplit(c, " ")[[1]]), TRUE))
+    if (!clash) chosen <- c(chosen, t)
+    if (length(chosen) == 4) break
+  }
+  paste(chosen, collapse = " · ")
+}, "")
+comm_info$themes <- ""
+comm_info$themes[match(theme_groups, comm_info$id)] <- themes
+
 groups  <- comm_info[comm_info$size >= 2, ]
 singles <- comm_info[comm_info$size == 1, ]
 
@@ -116,7 +168,7 @@ edges <- igraph::as_data_frame(g, what = "edges")
 payload <- list(
   nodes = nodes, edges = edges, perYear = per_year,
   top = head(co, 15),
-  communities = comm_info[, c("rank", "size", "lead", "members")],
+  communities = comm_info[, c("rank", "size", "lead", "members", "themes")],
   nGroups = nrow(groups)
 )
 cat('<script>window.COAUTH = ', toJSON(payload, dataframe = "rows", auto_unbox = TRUE), ';</script>\n', sep = "")
@@ -166,7 +218,7 @@ Each node is a co-author with at least `r min_papers` joint papers (`r stats$sho
 ### What the network says
 
 - Apart from me, the co-authors form **`r stats$communities` groups** of two people or more (Louvain algorithm, modularity `r stats$modularity`), plus `r stats$singles` co-authors with no other link: the network is made of research collaborations that hardly overlap.
-- The largest groups gather around `r paste(head(groups$lead, 6), collapse = ", ")`.
+- The largest groups gather around `r paste(head(groups$lead, 6), collapse = ", ")`. The themes shown for each group are the most distinctive words and expressions of the titles of its papers (TF-IDF), computed automatically.
 - The co-authors who act most as **bridges** inside the network (highest betweenness) are `r paste(names(bridges), collapse = ", ")`.
 - `r stats$solo` publications are single-authored; half of the papers have `r stats$median_auth` authors or fewer.
 

@@ -112,7 +112,7 @@
       value: n.papers,
       title: (() => {
         const t = document.createElement("div");
-        t.innerHTML = `<b>${esc(n.id)}</b><br>${n.papers} joint papers (${n.first === n.last ? n.first : n.first + "–" + n.last})<br>Community: ${esc(D.communities[n.comm - 1].lead)}`;
+        t.innerHTML = `<b>${esc(n.id)}</b><br>${n.papers} joint papers (${n.first === n.last ? n.first : n.first + "–" + n.last})<br>Community: ${esc(D.communities[n.comm - 1].lead)}${D.communities[n.comm - 1].themes ? `<br><i>${esc(D.communities[n.comm - 1].themes)}</i>` : ""}`;
         return t;
       })(),
       borderWidth: 2,
@@ -144,7 +144,7 @@
     if (singles.length) groups.push({ rank: -1, size: singles.length, lead: null, members: singles.map((c) => c.lead).join(", "), ranks: singles.map((c) => c.rank) });
     groups.forEach((c) => {
       const li = document.createElement("li");
-      li.innerHTML = `<span class="viz-swatch" style="background:${commColor(c.rank)}"></span><span>${c.lead ? `<b>${esc(c.lead)}</b> and co.` : "<b>Isolated co-authors</b>"} <span class="viz-muted">· ${c.size} people</span><br><span class="viz-muted">${esc(c.members)}</span></span>`;
+      li.innerHTML = `<span class="viz-swatch" style="background:${commColor(c.rank)}"></span><span>${c.lead ? `<b>${esc(c.lead)}</b> and co.` : "<b>Isolated co-authors</b>"} <span class="viz-muted">· ${c.size} people</span>${c.themes ? `<br><span class="viz-themes">${esc(c.themes)}</span>` : ""}<br><span class="viz-muted">${esc(c.members)}</span></span>`;
       li.tabIndex = 0;
       const on = () => highlight(c.ranks || [c.rank]);
       li.addEventListener("mouseenter", on);
