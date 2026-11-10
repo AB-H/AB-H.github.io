@@ -11,7 +11,7 @@ website:
   title: "Avner Bar-Hen"
   site-url: https://www.bar-hen.net
   description: "Avner Bar-Hen — Professor of Statistics at Cnam, Paris."
-  favicon: images/avner.jpg
+  favicon: images/favicon.png
   page-navigation: false
   navbar:
     right:
@@ -22,11 +22,7 @@ website:
       - text: Teaching
         href: teaching.qmd
       - text: Writing
-        menu:
-          - text: The Conversation
-            href: https://theconversation.com/fr/search?q=Avner+Bar-Hen&sort=recency
-          - text: Sciences et Avenir (blog archive)
-            href: http://statistique.blogs.sciencesetavenir.fr/
+        href: https://theconversation.com/fr/search?q=Avner+Bar-Hen&sort=recency
       - text: Career
         href: past.qmd
       - text: Contact

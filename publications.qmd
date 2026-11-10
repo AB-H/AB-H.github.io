@@ -5,13 +5,14 @@ listing:
   contents: publications.yml
   template: _publication.ejs
   sort: false
+  categories: numbered
   filter-ui: [title, authors, venue, year]
   sort-ui: false
-  page-size: 200
-  fields: [title, authors, venue, year, url, pdf]
+  page-size: 400
+  fields: [title, authors, venue, year, url, categories]
 ---
 
-My complete and up-to-date list of publications is on [Google Scholar](https://scholar.google.fr/citations?user=JZ3uW60AAAAJ&view_op=list_works&sortby=pubdate). A [full list up to 2017 (PDF)](files/publications.pdf) is also available.
+Selected list, from my [Google Scholar profile](https://scholar.google.fr/citations?user=JZ3uW60AAAAJ&view_op=list_works&sortby=pubdate). Use the box to search, or the categories to filter by type.
 
 ::: {#pubs}
 :::

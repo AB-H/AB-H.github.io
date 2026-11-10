@@ -1,77 +1,828 @@
-# One entry per publication. To add a paper, copy a block and fill it in.
-# Fields: title, authors, venue, year, url (+ optional pdf, doi).
+# Publications, newest first. Source: Google Scholar BibTeX export (cleaned, duplicates removed).
+# To add a paper, copy a block. Fields: title, authors, venue, year, categories, and optional url.
+# Without url, the page links to a Google Scholar search on the title.
+# Categories: Article, Conference, Chapter, Preprint, Thesis, Report, Outreach, Software.
+
+- title: "Response time central-limit and failure rate estimation for stationary periodic rate monotonic real-time systems"
+  authors: "K. Zagalo, A. Bar-Hen"
+  venue: "IEEE Transactions on Computers"
+  year: 2026
+  categories: [Article]
+- title: "Come rain or come shine, the species richness will decline in the Moroccan mountains"
+  authors: "R. Cheddadi, D. Kaniewski, N. Marriner, A. Bar-Hen, M.D. Hurteau"
+  venue: "Global Ecology and Conservation, 52, e02986"
+  year: 2024
+  categories: [Article]
+- title: "Faire parti sur Twitter : la communication politique des députés de la XVe législature"
+  authors: "C. Beaurepaire, Y. Boude, A. Bar-Hen"
+  venue: "Réseaux, 244(2), 301–334"
+  year: 2024
+  categories: [Article]
+- title: "Analyse de sensibilité du modèle énergétique d'un bâtiment pédagogique constitué de conteneurs maritimes"
+  authors: "M. Valizadeh, Q. Laporte-Chabasse, K. Cordeiro Mendonça, A. Bar-Hen, P.-A. Cormier"
+  venue: "IBPSA-France 2024"
+  year: 2024
+  categories: [Conference]
+- title: "Prédiction des événements rares"
+  authors: "S. Makhlouf, A. Bar-Hen, F.-X. Jollois"
+  venue: "Extraction et Gestion des Connaissances (EGC 2023), 223"
+  year: 2023
+  categories: [Conference]
+- title: "An ensemble learning method for variable selection: application to high-dimensional data and missing values"
+  authors: "A. Bar-Hen, V. Audigier"
+  venue: "Journal of Statistical Computation and Simulation, 92(16), 3488–3510"
+  year: 2022
+  categories: [Article]
+- title: "Block models for generalized multipartite networks: applications in ecology and ethnobiology"
+  authors: "A. Bar-Hen, P. Barbillon, S. Donnet"
+  venue: "Statistical Modelling, 22(4), 273–296"
+  year: 2022
+  categories: [Article]
+- title: "Response time stochastic analysis for fixed-priority stable real-time systems"
+  authors: "K. Zagalo, Y. Abdeddaïm, A. Bar-Hen, L. Cucu-Grosjean"
+  venue: "IEEE Transactions on Computers, 72(1), 3–14"
+  year: 2022
+  categories: [Article]
+- title: "High-spatial resolution epidemic surveillance of bacterial meningitis in the African meningitis belt in Burkina Faso"
+  authors: "M. Woringer, S. Porgho, C. Fermanian, N. Martiny, A. Bar-Hen, J.E. Mueller"
+  venue: "Scientific Reports, 12, 19451"
+  year: 2022
+  categories: [Article]
+- title: "Sex influence on muscle synergies in a ballistic force-velocity test during the delayed recovery phase after a graded endurance run"
+  authors: "R. Macchi, A. Santuz, A. Hays, F. Vercruyssen, A. Arampatzis, A. Bar-Hen, C. Nicol"
+  venue: "Heliyon, 8(6)"
+  year: 2022
+  categories: [Article]
+- title: "Work in progress: KDBench – towards open source benchmarks for measurement-based multicore WCET estimators"
+  authors: "M. Wehaiba El Khazen, K. Zagalo, H. Clarke, M. Mezouak, Y. Abdeddaïm, A. Bar-Hen, et al."
+  venue: "IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS 2022), 309–312"
+  year: 2022
+  categories: [Conference]
+- title: "An artificial neural network functionalized by evolution"
+  authors: "F. Furfaro, A. Bar-Hen, G. Berthelot"
+  venue: "arXiv:2205.10118"
+  year: 2022
+  categories: [Preprint]
+  url: https://arxiv.org/abs/2205.10118
+- title: "Spatial CART classification trees"
+  authors: "A. Bar-Hen, S. Gey, J.-M. Poggi"
+  venue: "Computational Statistics, 36(4), 2591–2613"
+  year: 2021
+  categories: [Article]
+- title: "CASCARO: cascade of classifiers for minimizing the cost of prediction"
+  authors: "B. Hanczar, A. Bar-Hen"
+  venue: "Pattern Recognition Letters, 149, 37–43"
+  year: 2021
+  categories: [Article]
+- title: "A real-world implementation of a nationwide, long-term monitoring program to assess the impact of agrochemicals and agricultural practices on biodiversity"
+  authors: "C. Andrade, A. Villers, G. Balent, A. Bar-Hen, J. Chadoeuf, D. Cylly, et al."
+  venue: "Ecology and Evolution, 11(9), 3771–3793"
+  year: 2021
+  categories: [Article]
+- title: "Work-in-progress: the impact of the period variation on execution time distributions of programs"
+  authors: "L. Cucu-Grosjean, A. Bar-Hen, Y. Sorel, H. Clarke"
+  venue: "IEEE RTCSA 2021, 204–206"
+  year: 2021
+  categories: [Conference]
+- title: "Aircraft numerical “twin”: a time series regression competition"
+  authors: "A. Pavao, I. Guyon, et al."
+  venue: "IEEE International Conference on Machine Learning and Applications (ICMLA 2021), 441–448"
+  year: 2021
+  categories: [Conference]
+- title: "Organizational change and social network resilience among scientists over 20 years: a multilevel approach"
+  authors: "E. Lazega, A. Bar-Hen, B. Milard, A. Descoubet"
+  venue: "5th European Conference on Social Networks"
+  year: 2021
+  categories: [Conference]
+- title: "Monitoring the acoustic activity of an aquatic insect population in relation to temperature, vegetation and noise"
+  authors: "C. Desjonquères, F. Rybak, J.S. Ulloa, A. Kempf, A. Bar-Hen, J. Sueur"
+  venue: "Freshwater Biology, 65(1), 107–116"
+  year: 2020
+  categories: [Article]
+- title: "Identification of execution modes for real-time systems using cluster analysis"
+  authors: "K. Zagalo, L. Cucu-Grosjean, A. Bar-Hen"
+  venue: "IEEE ETFA 2020, 1–4"
+  year: 2020
+  categories: [Conference]
+- title: "An integrative modeling approach to the age-performance relationship in mammals at the cellular scale"
+  authors: "G. Berthelot, A. Bar-Hen, A. Marck, V. Foulonneau, S. Douady, P. Noirez, et al."
+  venue: "Scientific Reports, 9, 418"
+  year: 2019
+  categories: [Article]
+- title: "Hierarchizing determinants of sick leave: insights from a survey on health and well-being at the workplace"
+  authors: "T. Duchemin, A. Bar-Hen, R. Lounissi, W. Dab, M.N. Hocine"
+  venue: "Journal of Occupational and Environmental Medicine, 61(8), e340–e347"
+  year: 2019
+  categories: [Article]
+- title: "Addressing failure prediction by learning model confidence"
+  authors: "C. Corbière, N. Thome, A. Bar-Hen, M. Cord, P. Pérez"
+  venue: "Advances in Neural Information Processing Systems (NeurIPS), 32"
+  year: 2019
+  categories: [Conference]
+- title: "Introduction to molecular phylogeny"
+  authors: "M. Mariadassou, A. Bar-Hen"
+  venue: "In: Statistical Learning and Data Science, Chapman and Hall/CRC, 141–150"
+  year: 2019
+  categories: [Chapter]
+- title: "Atmospheric dust, early cases, and localized meningitis epidemics in the African meningitis belt: an analysis using high spatial resolution data"
+  authors: "M. Woringer, N. Martiny, S. Porgho, B.W. Bicaba, A. Bar-Hen, J.E. Mueller"
+  venue: "Environmental Health Perspectives, 126(9), 097002"
+  year: 2018
+  categories: [Article]
+- title: "Une méthode d'ensemble pour la sélection de variables : application à la grande dimension et aux données manquantes"
+  authors: "A. Bar-Hen, V. Audigier"
+  venue: "50es Journées de Statistique de la SFdS"
+  year: 2018
+  categories: [Conference]
 - title: "Collective effectiveness in the XV de France: selections and time matter"
-  authors: "A. Sedeaud, G. Saulière, L.A. Marquet, S. Del Vecchio, A. Bar-Hen, J.-F. Toussaint"
+  authors: "A. Sedeaud, G. Saulière, L.-A. Marquet, S. Del Vecchio, A. Bar-Hen, J.-F. Toussaint"
   venue: "European Journal of Sport Science, 17(6), 656–664"
   year: 2017
+  categories: [Article]
   url: https://www.researchgate.net/publication/314979990_Collective_effectiveness_in_the_XV_de_France_selections_and_time_matter
-- title: "Stochastic block model for multiplex networks: an application to a multilevel network of researchers"
+- title: "Stochastic block models for multiplex networks: an application to a multilevel network of researchers"
   authors: "P. Barbillon, S. Donnet, E. Lazega, A. Bar-Hen"
-  venue: "Journal of the Royal Statistical Society: Series A, 180, 295–314"
+  venue: "Journal of the Royal Statistical Society: Series A, 180(1), 295–314"
   year: 2017
+  categories: [Article]
   url: https://hal.science/hal-01520820/document
+- title: "Empirical advances with text mining of electronic health records"
+  authors: "T. Delespierre, P. Denormandie, A. Bar-Hen, L. Josseran"
+  venue: "BMC Medical Informatics and Decision Making, 17(1), 127"
+  year: 2017
+  categories: [Article]
+- title: "Detecting multi-way epistasis in family-based association studies"
+  authors: "C. Loucoubar, A.V. Grant, J.-F. Bureau, I. Casademont, N.A. Bar, A. Bar-Hen, et al."
+  venue: "Briefings in Bioinformatics, 18(3), 394–402"
+  year: 2017
+  categories: [Article]
+  url: https://academic.oup.com/bib/article/18/3/394/2453295
+- title: "Modèles à blocs latents pour graphe multipartite : application aux interactions entre espèces animales et plantes"
+  authors: "S. Donnet, A. Bar-Hen, P. Barbillon"
+  venue: "49es Journées de Statistique de la SFdS"
+  year: 2017
+  categories: [Conference]
 - title: "Review of published articles on climate change and health in two francophone newspapers: 1990–2015"
-  authors: "M. Hemono, S. Puig-Malet, P. Zylberman, A. Bar-Hen, R. Sauerborn, S. Schütte, …, A. Depoux"
+  authors: "M. Hémono, S. Puig-Malet, P. Zylberman, A. Bar-Hen, R. Sauerborn, S. Schütte, N. Herlihy, A. Flahault, A. Depoux"
   venue: "European Journal of Public Health, 26(suppl. 1), ckw174.031"
   year: 2016
+  categories: [Article]
   url: https://doi.org/10.1093/eurpub/ckw174.031
 - title: "Loss of papillary dermal calcitonin gene related peptide-expressing neurons significantly correlates with uremic pruritus"
   authors: "T. Du, A. Bar-Hen, J.S. Bhatia, D. Wolpowitz"
   venue: "Journal of Investigative Dermatology, 136(11), 2323–2325"
   year: 2016
+  categories: [Article]
   url: https://www.sciencedirect.com/science/article/pii/S0022202X16321182
 - title: "Public health and epidemiology informatics"
   authors: "A. Flahault, A. Bar-Hen, N. Paragios"
-  venue: "IMIA Yearbook of Medical Informatics, 240–246"
+  venue: "Yearbook of Medical Informatics, 25(1), 240–246"
   year: 2016
-  url: https://doi.org/10.15265/IY-2016-032
+  categories: [Article]
+  url: https://pubmed.ncbi.nlm.nih.gov/?term=%22Public+health+and+epidemiology+informatics%22+Bar-Hen
 - title: "Climate change and human health: what are the research trends? A scoping review protocol"
   authors: "N. Herlihy, A. Bar-Hen, G. Verner, H. Fischer, R. Sauerborn, A. Depoux, A. Flahault, S. Schütte"
   venue: "BMJ Open, 6(12), e012022"
   year: 2016
+  categories: [Article]
   url: https://bmjopen.bmj.com/content/6/12/e012022
 - title: "Effects of competition on collective learning in advice networks"
   authors: "E. Lazega, A. Bar-Hen, P. Barbillon, S. Donnet"
   venue: "Social Networks, 47, 1–14"
   year: 2016
+  categories: [Article]
   url: http://elazega.fr/wp-content/uploads/2012/10/Competition-and-learning-Social-Networks-2016.pdf
-- title: "Detecting multi-way epistasis in family-based association studies"
-  authors: "C. Loucoubar, A.V. Grant, J.-F. Bureau, I. Casademont, N. Ardo Bar, A. Bar-Hen, et al., A. Sakuntabhai"
-  venue: "Briefings in Bioinformatics, 18(3), 394–402"
-  year: 2016
-  url: https://academic.oup.com/bib/article/18/3/394/2453295
 - title: "Influence measures and stability for graphical models"
   authors: "A. Bar-Hen, J.-M. Poggi"
   venue: "Journal of Multivariate Analysis, 147, 145–154"
   year: 2016
+  categories: [Article]
   url: https://www.researchgate.net/publication/292211486_Influence_measures_and_stability_for_graphical_models
-- title: "Spatial cluster detection using nearest neighbour distance"
+- title: "Controlling the cost of prediction in using a cascade of reject classifiers for personalized medicine"
+  authors: "B. Hanczar, A. Bar-Hen"
+  venue: "International Conference on Bioinformatics Models, Methods and Algorithms (BIOINFORMATICS 2016), 42–50"
+  year: 2016
+  categories: [Conference]
+- title: "WikipediaR: R-based Wikipedia client"
+  authors: "A. Bar-Hen, L. Baschet, F.-X. Jollois, J. Riou"
+  venue: "R package (CRAN)"
+  year: 2016
+  categories: [Software]
+  url: https://cran.r-project.org/package=WikipediaR
+- title: "Spatial cluster detection using nearest neighbor distance"
   authors: "A. Bar-Hen, M. Emily, N. Picard"
   venue: "Spatial Statistics, 14, 400–411"
   year: 2015
+  categories: [Article]
   url: https://www.researchgate.net/publication/282598657_Spatial_cluster_detection_using_nearest_neighbor_distance
 - title: "Analyse statistique des profils et de l'activité des participants d'un MOOC"
-  authors: "A. Bar-Hen, N. Villa-Vialaneix, H. Javaux"
+  authors: "A. Bar-Hen, H. Javaux, N. Villa-Vialaneix"
   venue: "Revue internationale des technologies en pédagogie universitaire, 12(1–2), 11–22"
   year: 2015
+  categories: [Article]
   url: https://www.erudit.org/en/journals/ritpu/2015-v12-n1-2-ritpu02919/1038836ar.pdf
 - title: "Non-adaptive policies for 20 questions target localization"
   authors: "E. Variani, K. Lahouel, A. Bar-Hen, B. Jedynak"
-  venue: "IEEE International Symposium on Information Theory (ISIT), 775–778"
+  venue: "IEEE International Symposium on Information Theory (ISIT 2015), 775–778"
   year: 2015
+  categories: [Conference]
   url: https://arxiv.org/abs/1504.05996
 - title: "La presse parisienne et la grippe « espagnole » (1918–1920)"
   authors: "A. Bar-Hen, P. Zylberman"
-  venue: "Les Tribunes de la santé, 47, 35–49"
+  venue: "Les Tribunes de la santé, 47(2), 35–49"
   year: 2015
+  categories: [Article]
   url: https://www.cairn.info/article.php?ID_ARTICLE=SEVE_047_0035
 - title: "Characterization of the major bacterial–fungal populations colonizing dandruff scalps in Shanghai, China, shows microbial disequilibrium"
-  authors: "L. Wang, C. Clavaud, A. Bar-Hen, C. Meng, J. Gao, Y. Liu, et al., L. Breton"
+  authors: "L. Wang, C. Clavaud, A. Bar-Hen, M. Cui, J. Gao, Y. Liu, et al."
   venue: "Experimental Dermatology, 24(5), 398–400"
   year: 2015
+  categories: [Article]
   url: https://doi.org/10.1111/exd.12684
 - title: "Influence measures for CART classification trees"
   authors: "A. Bar-Hen, S. Gey, J.-M. Poggi"
   venue: "Journal of Classification, 32(1), 21–45"
   year: 2015
+  categories: [Article]
   url: https://hal.science/hal-00562039
+- title: "Surveillance of gastrointestinal disease in France using drug sales data"
+  authors: "M. Pivette, J.E. Mueller, P. Crépey, A. Bar-Hen"
+  venue: "Epidemics, 8, 1–8"
+  year: 2014
+  categories: [Article]
+- title: "Drug sales data analysis for outbreak detection of infectious diseases: a systematic literature review"
+  authors: "M. Pivette, J.E. Mueller, P. Crépey, A. Bar-Hen"
+  venue: "BMC Infectious Diseases, 14(1), 604"
+  year: 2014
+  categories: [Article]
+- title: "Application of calibrated image derived input function to a clinical protocol"
+  authors: "P. Zanotti-Fregonara, C.H. Lyoo, A. Bar-Hen, J.-S. Liow, S.S. Zoghbi, M. Fujita, R.B. Innis"
+  venue: "Nuclear Medicine Communications, 35(11), 1188"
+  year: 2014
+  categories: [Article]
+- title: "Implementation of two statistical methods for ensemble prediction systems in the management of electrical systems"
+  authors: "A. Gogonel, J. Collet, A. Bar-Hen"
+  venue: "Case Studies in Business, Industry and Government Statistics, 5(2), 74–87"
+  year: 2014
+  categories: [Article]
+- title: "MOOC qui peut (MOOC qui veut) — MOOC « Fondamentaux en statistique » sur la plateforme FUN"
+  authors: "A. Bar-Hen"
+  venue: "Statistique et enseignement, 5(1), 91–99"
+  year: 2014
+  categories: [Article]
+- title: "Données de santé : le temps de la maturité et de l'ouverture ?"
+  authors: "A. Bar-Hen"
+  venue: "Statistique et société, 2(2), 13–17"
+  year: 2014
+  categories: [Article]
+- title: "Estimating second order characteristics of point processes with known independent noise"
+  authors: "A. Bar-Hen, J. Chadoeuf, H. Dessard, P. Monestiez"
+  venue: "Statistics and Computing, 23(3), 297–309"
+  year: 2013
+  categories: [Article]
+- title: "Improving the calibration of the best member method using quantile regression to forecast extreme temperatures"
+  authors: "A. Gogonel, J. Collet, A. Bar-Hen"
+  venue: "Natural Hazards and Earth System Sciences, 13(5), 1161–1168"
+  year: 2013
+  categories: [Article]
+- title: "Cluster analysis for two-level data sets: classifying tree species from individual measurements"
+  authors: "N. Picard, A. Bar-Hen"
+  venue: "Ecological Informatics, 15, 1–7"
+  year: 2013
+  categories: [Article]
+- title: "Dandruff is associated with disequilibrium in the proportion of the major bacterial and fungal populations colonizing the scalp"
+  authors: "C. Clavaud, R. Jourdain, A. Bar-Hen, M. Tichit, C. Bouchier, F. Pouradier, et al."
+  venue: "PLoS ONE, 8(3), e58203"
+  year: 2013
+  categories: [Article]
+- title: "Quantitative assessment of preventive behaviors in France during the Fukushima nuclear crisis"
+  authors: "P. Crépey, M. Pivette, A. Bar-Hen"
+  venue: "PLoS ONE, 8(3), e58385"
+  year: 2013
+  categories: [Article]
+- title: "A model-based dimension reduction approach to classification of gene expression data"
+  authors: "L. Scrucca, A. Bar-Hen"
+  venue: "In: Advances in Theoretical and Applied Statistics, Springer, 221–230"
+  year: 2013
+  categories: [Chapter]
+- title: "Évitabilité des infections en établissement d'hébergement pour personnes âgées dépendantes en France : que peut-on conclure ?"
+  authors: "K. Chami, G. Gavazzi, M. Rothan-Tondeur, A. Bar-Hen, F. Carrat, B. de Wazières"
+  venue: "Hygiènes, 21(5), 233–235"
+  year: 2013
+  categories: [Article]
+- title: "Donnons aux citoyens accès aux données de santé"
+  authors: "A. Bar-Hen, A. Flahault"
+  venue: "Le Monde"
+  year: 2013
+  categories: [Outreach]
+- title: "Taxon influence index: assessing taxon-induced incongruities in phylogenetic inference"
+  authors: "M. Mariadassou, A. Bar-Hen, H. Kishino"
+  venue: "Systematic Biology, 61(2), 337–345"
+  year: 2012
+  categories: [Article]
+- title: "A criterion based on the Mahalanobis distance for cluster analysis with subsampling"
+  authors: "N. Picard, A. Bar-Hen"
+  venue: "Journal of Classification, 29(1), 23–49"
+  year: 2012
+  categories: [Article]
+- title: "A new measure of classifier performance for gene expression data"
+  authors: "B. Hanczar, A. Bar-Hen"
+  venue: "IEEE/ACM Transactions on Computational Biology and Bioinformatics, 9(5), 1379–1386"
+  year: 2012
+  categories: [Article]
+- title: "Comparative analysis of methods for inferring successful foraging areas from Argos and GPS tracking data"
+  authors: "A.-C. Dragon, A. Bar-Hen, P. Monestiez, C. Guinet"
+  venue: "Marine Ecology Progress Series, 452, 253–267"
+  year: 2012
+  categories: [Article]
+- title: "Modelling transmission of bovine tuberculosis in red deer and wild boar in Normandy, France"
+  authors: "G. Zanella, A. Bar-Hen, M.-L. Boschiroli, J. Hars, F. Moutou, B. Garin-Bastuji, B. Durand"
+  venue: "Zoonoses and Public Health, 59(s2), 170–178"
+  year: 2012
+  categories: [Article]
+- title: "A short-term, multicomponent infection control program in nursing homes: a cluster randomized controlled trial"
+  authors: "K. Chami, G. Gavazzi, A. Bar-Hen, F. Carrat, B. de Wazières, B. Lejeune, et al."
+  venue: "Journal of the American Medical Directors Association"
+  year: 2012
+  categories: [Article]
+- title: "Spatial interpolation of circular data: application to tsunami of December 2004"
+  authors: "D. Grancher, A. Bar-Hen, R. Paris, F. Lavigne, D. Brunstein"
+  venue: "Advances and Applications in Statistics, 30(1), 19–29"
+  year: 2012
+  categories: [Article]
+- title: "Spatial clustering using nearest-neighbour distance"
+  authors: "M. Emily, A. Bar-Hen"
+  venue: "44es Journées de Statistique de la SFdS"
+  year: 2012
+  categories: [Conference]
+- title: "Spatio-temporal functional regression on paleoecological data"
+  authors: "L. Bel, A. Bar-Hen, R. Petit, R. Cheddadi"
+  venue: "Journal of Applied Statistics, 38(4), 695–704"
+  year: 2011
+  categories: [Article]
+- title: "Yield stability in clones of Coffea canephora in the short and medium term: longitudinal data analyses and measures of stability over time"
+  authors: "C. Cilas, C. Montagnon, A. Bar-Hen"
+  venue: "Tree Genetics & Genomes, 7(2), 421–429"
+  year: 2011
+  categories: [Article]
+- title: "Estimating inter-group interaction radius for point processes with nested spatial structures"
+  authors: "J. Chadoeuf, G. Certain, E. Bellier, A. Bar-Hen, P. Couteron, P. Monestiez, V. Bretagnolle"
+  venue: "Computational Statistics & Data Analysis, 55(1), 627–640"
+  year: 2011
+  categories: [Article]
+- title: "An exhaustive, non-Euclidean, non-parametric data mining tool for unraveling the complexity of biological systems — novel insights into malaria"
+  authors: "C. Loucoubar, R. Paul, A. Bar-Hen, A. Huret, A. Tall, C. Sokhna, et al."
+  venue: "PLoS ONE, 6(9), e24085"
+  year: 2011
+  categories: [Article]
+- title: "Impact of changing drug treatment and malaria endemicity on the heritability of malaria phenotypes in a longitudinal family-based cohort study"
+  authors: "C. Loucoubar, B. Goncalves, A. Tall, C. Sokhna, J.-F. Trape, et al."
+  venue: "PLoS ONE, 6(11), e26364"
+  year: 2011
+  categories: [Article]
+- title: "Variations in circulating inflammatory factors are related to changes in calorie and carbohydrate intakes early in the course of surgery-induced weight reduction"
+  authors: "E. Dalmas, C. Rouault, M. Abdennour, C. Rovere, S. Rizkalla, A. Bar-Hen, et al."
+  venue: "The American Journal of Clinical Nutrition, 94(2), 450–458"
+  year: 2011
+  categories: [Article]
+- title: "Identification des épisodes d'accident vasculaire cérébral multi-établissements dans la base du PMSI"
+  authors: "O. Grimaud, F. Gao, J.-F. Philippon, A. Bar-Hen"
+  venue: "Revue d'Épidémiologie et de Santé Publique, 59, S62"
+  year: 2011
+  categories: [Article]
+- title: "Influence function for robust phylogenetic reconstruction"
+  authors: "M. Mariadassou, A. Bar-Hen"
+  venue: "JOBIM 2011, 422"
+  year: 2011
+  categories: [Conference]
+- title: "La précognition est-elle démontrée ?"
+  authors: "A. Bar-Hen"
+  venue: "Images des mathématiques (CNRS)"
+  year: 2011
+  categories: [Outreach]
+- title: "Empirical comparison between some model selection criteria"
+  authors: "A. Sayyareh, R. Obeidi, A. Bar-Hen"
+  venue: "Communications in Statistics – Simulation and Computation, 40(1), 72–86"
+  year: 2010
+  categories: [Article]
+- title: "Linking foraging behaviour to physical oceanographic structures: southern elephant seals and mesoscale eddies east of Kerguelen Islands"
+  authors: "A.-C. Dragon, P. Monestiez, A. Bar-Hen, C. Guinet"
+  venue: "Progress in Oceanography, 87(1–4), 61–71"
+  year: 2010
+  categories: [Article]
+- title: "Choosing classes for size projection matrix models"
+  authors: "N. Picard, D. Ouédraogo, A. Bar-Hen"
+  venue: "Ecological Modelling, 221(19), 2270–2279"
+  year: 2010
+  categories: [Article]
+- title: "Fonction d'influence pour la reconstruction de phylogénies robustes"
+  authors: "M. Mariadassou, A. Bar-Hen"
+  venue: "42es Journées de Statistique"
+  year: 2010
+  categories: [Conference]
+- title: "Les 150 ans de la Société de statistique de Paris"
+  authors: "A. Bar-Hen"
+  venue: "Images des mathématiques (CNRS)"
+  year: 2010
+  categories: [Outreach]
+- title: "CART algorithm for spatial data: application to environmental and ecological data"
+  authors: "L. Bel, D. Allard, J.-M. Laurent, R. Cheddadi, A. Bar-Hen"
+  venue: "Computational Statistics & Data Analysis, 53(8), 3082–3093"
+  year: 2009
+  categories: [Article]
+- title: "Understanding the dynamics of an undisturbed tropical rain forest from the spatial pattern of trees"
+  authors: "N. Picard, A. Bar-Hen, F. Mortier, J. Chadoeuf"
+  venue: "Journal of Ecology, 97(1), 97–108"
+  year: 2009
+  categories: [Article]
+- title: "The multi-scale marked area-interaction point process: a model for the spatial pattern of trees"
+  authors: "N. Picard, A. Bar-Hen, F. Mortier, J. Chadoeuf"
+  venue: "Scandinavian Journal of Statistics, 36(1), 23–41"
+  year: 2009
+  categories: [Article]
+- title: "Spatial gradient of temperature and potential vegetation feedback across Europe during the late Quaternary"
+  authors: "R. Cheddadi, A. Bar-Hen"
+  venue: "Climate Dynamics, 32(2), 371–379"
+  year: 2009
+  categories: [Article]
+- title: "Finding confidence limits on population growth rates: bootstrap and analytic methods"
+  authors: "N. Picard, P. Chagneau, F. Mortier, A. Bar-Hen"
+  venue: "Mathematical Biosciences, 219(1), 23–31"
+  year: 2009
+  categories: [Article]
+- title: "Concentration inequality for evolutionary trees"
+  authors: "M. Mariadassou, A. Bar-Hen"
+  venue: "Journal of Multivariate Analysis, 100(9), 2055–2064"
+  year: 2009
+  categories: [Article]
+- title: "More diseases tracked by using Google Trends"
+  authors: "C. Pelat, C. Turbelin, A. Bar-Hen, A. Flahault, A.-J. Valleron"
+  venue: "Emerging Infectious Diseases, 15(8), 1327"
+  year: 2009
+  categories: [Article]
+- title: "Comparison of eight methods for the estimation of the image-derived input function in dynamic [18F]-FDG PET human brain studies"
+  authors: "P. Zanotti-Fregonara, E.M. Fadaili, R. Maroy, C. Comtat, A. Souloumiac, S. Jan, M.-J. Ribeiro, V. Gaura, A. Bar-Hen, R. Trébossen"
+  venue: "Journal of Cerebral Blood Flow & Metabolism, 29(11), 1825–1835"
+  year: 2009
+  categories: [Article]
+- title: "Comparison of 3 methods of automated internal carotid segmentation in human brain PET studies: application to the estimation of arterial input function"
+  authors: "P. Zanotti-Fregonara, R. Maroy, C. Comtat, S. Jan, V. Gaura, A. Bar-Hen, M.-J. Ribeiro, R. Trébossen"
+  venue: "Journal of Nuclear Medicine, 50(3), 461–467"
+  year: 2009
+  categories: [Article]
+- title: "Assessing the distribution consistency of sequential data"
+  authors: "M. Mariadassou, A. Bar-Hen"
+  venue: "arXiv:0906.0989"
+  year: 2009
+  categories: [Preprint]
+  url: https://arxiv.org/abs/0906.0989
+- title: "Les sondages sont-ils devenus fous ?"
+  authors: "A. Bar-Hen, J. Chiche"
+  venue: "Images des mathématiques (CNRS)"
+  year: 2009
+  categories: [Outreach]
+- title: "A paradigm of diagnostic criteria for polyarteritis nodosa: analysis of a series of 949 patients with vasculitides"
+  authors: "C. Henegar, C. Pagnoux, X. Puéchal, J.-D. Zucker, A. Bar-Hen, V. Le Guern, et al."
+  venue: "Arthritis & Rheumatism, 58(5), 1528–1538"
+  year: 2008
+  categories: [Article]
+- title: "European bioclimatic affinity groups: data-model comparisons"
+  authors: "J.-M. Laurent, L. François, A. Bar-Hen, L. Bel, R. Cheddadi"
+  venue: "Global and Planetary Change, 61(1–2), 28–40"
+  year: 2008
+  categories: [Article]
+- title: "Asymptotic distribution of density-dependent stage-grouped population dynamics models"
+  authors: "M. Zetlaoui, N. Picard, A. Bar-Hen"
+  venue: "Acta Biotheoretica, 56(1), 137–155"
+  year: 2008
+  categories: [Article]
+- title: "Normalization for triple-target microarray experiments"
+  authors: "M.-L. Martin-Magniette, J. Aubert, A. Bar-Hen, S. Elftieh, F. Magniette, J.-P. Renou, J.-J. Daudin"
+  venue: "BMC Bioinformatics, 9(1), 216"
+  year: 2008
+  categories: [Article]
+- title: "Influence function for robust phylogenetic reconstructions"
+  authors: "A. Bar-Hen, M. Mariadassou, M.-A. Poursat, P. Vandenkoornhuyse"
+  venue: "Molecular Biology and Evolution, 25(5), 869–873"
+  year: 2008
+  categories: [Article]
+- title: "A novel method for measuring patients' adherence to insulin dosing guidelines: introducing indicators of adherence"
+  authors: "M. Toussi, C. Choleau, G. Reach, M. Cahané, A. Bar-Hen, A. Venot"
+  venue: "BMC Medical Informatics and Decision Making, 8"
+  year: 2008
+  categories: [Article]
+- title: "An iconic language for the graphical representation of medical concepts"
+  authors: "J.-B. Lamy, C. Duclos, A. Bar-Hen, P. Ouvrard, A. Venot"
+  venue: "BMC Medical Informatics and Decision Making, 8"
+  year: 2008
+  categories: [Article]
+- title: "Design of a graphical and interactive interface for facilitating access to drug contraindications, cautions for use, interactions and adverse effects"
+  authors: "J.-B. Lamy, A. Venot, A. Bar-Hen, P. Ouvrard, C. Duclos"
+  venue: "BMC Medical Informatics and Decision Making, 8"
+  year: 2008
+  categories: [Article]
+- title: "Estimating a difference of Kullback–Leibler risks using a normalized difference of AIC"
+  authors: "D. Commenges, A. Sayyareh, L. Letenneur, J. Guedj, A. Bar-Hen"
+  venue: "Annals of Applied Statistics, 2(3)"
+  year: 2008
+  categories: [Article]
+- title: "Spatio-temporal functional regression on paleoecological data"
+  authors: "A. Bar-Hen, L. Bel, R. Cheddadi"
+  venue: "In: Functional and Operatorial Statistics, Physica-Verlag, 54–56"
+  year: 2008
+  categories: [Chapter]
+- title: "Lowess extension to normalize three dyes cDNA microarray experiments"
+  authors: "J. Aubert, M.-L. Martin-Magniette, S. Elftieh, A. Bar-Hen, J.-P. Renou, J.-J. Daudin"
+  venue: "JOBIM 2008"
+  year: 2008
+  categories: [Conference]
+- title: "A semi-parametric approach for mixture models: application to local false discovery rate estimation"
+  authors: "S. Robin, A. Bar-Hen, J.-J. Daudin, L. Pierre"
+  venue: "Computational Statistics & Data Analysis, 51(12), 5483–5493"
+  year: 2007
+  categories: [Article]
+- title: "Biases induced by pooling samples in microarray experiments"
+  authors: "T. Mary-Huard, J.-J. Daudin, M. Baccini, A. Biggeri, A. Bar-Hen"
+  venue: "Bioinformatics, 23(13), i313–i318"
+  year: 2007
+  categories: [Article]
+- title: "Estimation of the density of a clustered point pattern using a distance method"
+  authors: "N. Picard, A. Bar-Hen"
+  venue: "Environmental and Ecological Statistics, 14(4), 341–353"
+  year: 2007
+  categories: [Article]
+- title: "Estimator of upgrowth transition rates for size-classified matrix from small samples"
+  authors: "N. Picard, A. Bar-Hen, S. Gourlet-Fleury"
+  venue: "Ecological Modelling, 204(1–2), 59–69"
+  year: 2007
+  categories: [Article]
+- title: "Robustness of the estimators of transition rates for size-classified matrix models"
+  authors: "M. Zetlaoui, N. Picard, A. Bar-Hen"
+  venue: "Computational Statistics & Data Analysis, 51(10), 5090–5102"
+  year: 2007
+  categories: [Article]
+- title: "A novel method for assessing insulin dose adjustments by patients with diabetes"
+  authors: "C. Choleau, A.M. Albisser, A. Bar-Hen, H. Bihan, C. Campinos, Z. Gherbi, et al."
+  venue: "Journal of Diabetes Science and Technology, 1(1), 3–7"
+  year: 2007
+  categories: [Article]
+- title: "Some comments on false discovery rate"
+  authors: "A. Bar-Hen, K.I. Kim, M.A. van de Wiel"
+  venue: "Journal of Bioinformatics and Computational Biology, 5(4), 987–990"
+  year: 2007
+  categories: [Article]
+- title: "Dairy products, calcium and the risk of breast cancer: results of the French SU.VI.MAX prospective study"
+  authors: "E. Kesse-Guyot, S. Bertrais, B. Duperray, N. Arnault, A. Bar-Hen, P. Galan, S. Hercberg"
+  venue: "Annals of Nutrition and Metabolism, 51(2), 139–145"
+  year: 2007
+  categories: [Article]
+- title: "Profiling at mRNA, protein, and metabolite levels reveals alterations in renal amino acid handling and glutathione metabolism in kidney tissue of Pept2-/- mice"
+  authors: "I.M. Frey, I. Rubio-Aliaga, A. Siewert, D. Sailer, A. Drobyshev, J. Beckers, et al."
+  venue: "Physiological Genomics, 28(3), 301–310"
+  year: 2007
+  categories: [Article]
+- title: "A constrained polynomial regression procedure for estimating the local false discovery rate"
+  authors: "C. Dalmasso, A. Bar-Hen, P. Broët"
+  venue: "BMC Bioinformatics, 8"
+  year: 2007
+  categories: [Article]
+- title: "Discriminant analysis based on continuous and discrete variables"
+  authors: "A. Bar-Hen, J.-J. Daudin"
+  venue: "In: Statistical Methods for Biostatistics and Related Fields, Springer, 3–27"
+  year: 2007
+  categories: [Chapter]
+- title: "Biodiversité et approches spatiales en environnement : introduction"
+  authors: "A. Bar-Hen, E. Parent"
+  venue: "Journal de la Société Française de Statistique, 148(1), 5–8"
+  year: 2007
+  categories: [Article]
+- title: "Increased infiltration of macrophages in omental adipose tissue is associated with marked hepatic lesions in morbid human obesity"
+  authors: "R. Cancello, J. Tordjman, C. Poitou, G. Guilhem, J.-L. Bouillot, D. Hugol, et al."
+  venue: "Diabetes, 55(6), 1554–1561"
+  year: 2006
+  categories: [Article]
+- title: "Definition of architectural ideotypes for good yield capacity in Coffea canephora"
+  authors: "C. Cilas, A. Bar-Hen, C. Montagnon, C. Godin"
+  venue: "Annals of Botany, 97(3), 405–411"
+  year: 2006
+  categories: [Article]
+- title: "Asymptotic distribution of stage-grouped population models"
+  authors: "M. Zetlaoui, N. Picard, A. Bar-Hen"
+  venue: "Mathematical Biosciences, 200(1), 76–89"
+  year: 2006
+  categories: [Article]
+- title: "Simulation study of dissimilarity between point process"
+  authors: "A. Bar-Hen, N. Picard"
+  venue: "Computational Statistics, 21(3), 487–507"
+  year: 2006
+  categories: [Article]
+- title: "Prediction of Euclidean distances with discrete and continuous outcomes"
+  authors: "F. Mortier, S. Robin, S. Lassalvy, C.P. Baril, A. Bar-Hen"
+  venue: "Journal of Multivariate Analysis, 97(8), 1799–1814"
+  year: 2006
+  categories: [Article]
+- title: "Does our interglacial period have an analogue in the past?"
+  authors: "R. Cheddadi, J.-L. de Beaulieu, J. Jouzel, V. Andrieu-Ponel, J.-M. Laurent, M. Reille, D. Raynaud, A. Bar-Hen"
+  venue: "Médecine/Sciences, 22(2), 107–109"
+  year: 2006
+  categories: [Article]
+- title: "Impact du climat sur quelques espèces méditerranéennes : du passé au futur"
+  authors: "R. Cheddadi, L. François, A. Bar-Hen, K. Huang, M. Demarteau, et al."
+  venue: "In: Biodiversité et changement global, 91"
+  year: 2006
+  categories: [Chapter]
+- title: "Influence function for phylogenetic trees"
+  authors: "A. Bar-Hen, M.-A. Poursat, P. Vandenkoornhuyse"
+  venue: "23rd International Biometric Conference"
+  year: 2006
+  categories: [Conference]
+- title: "Similarity of vegetation dynamics during interglacial periods"
+  authors: "R. Cheddadi, J.-L. de Beaulieu, J. Jouzel, V. Andrieu-Ponel, J.-M. Laurent, M. Reille, D. Raynaud, A. Bar-Hen"
+  venue: "Proceedings of the National Academy of Sciences, 102(39), 13939–13943"
+  year: 2005
+  categories: [Article]
+- title: "Experimental design for spatial sampling applied to the study of tropical forest regeneration"
+  authors: "H. Dessard, A. Bar-Hen"
+  venue: "Canadian Journal of Forest Research, 35(5), 1149–1155"
+  year: 2005
+  categories: [Article]
+- title: "Influence function and correspondence analysis"
+  authors: "E. Nowak, A. Bar-Hen"
+  venue: "Journal of Statistical Planning and Inference, 134(1), 26–35"
+  year: 2005
+  categories: [Article]
+- title: "Comparaisons multiples pour les microarrays"
+  authors: "A. Bar-Hen, J.-J. Daudin, S. Robin"
+  venue: "Journal de la Société Française de Statistique, 146(1–2), 45–62"
+  year: 2005
+  categories: [Article]
+- title: "A spatial extension of CART: application to classification of ecological data"
+  authors: "L. Bel, J.-M. Laurent, A. Bar-Hen, D. Allard, R. Cheddadi"
+  venue: "Geostatistics for Environmental Applications (geoENV V), Springer, 99–109"
+  year: 2005
+  categories: [Conference]
+- title: "Determination of the differentially expressed genes in microarray experiments using local FDR"
+  authors: "J. Aubert, A. Bar-Hen, J.-J. Daudin, S. Robin"
+  venue: "BMC Bioinformatics, 5(1), 125"
+  year: 2004
+  categories: [Article]
+- title: "Refining vegetation simulation models: from plant functional types to bioclimatic affinity groups of plants"
+  authors: "J.-M. Laurent, A. Bar-Hen, L. François, M. Ghislain, R. Cheddadi"
+  venue: "Journal of Vegetation Science, 15(6), 739–746"
+  year: 2004
+  categories: [Article]
+- title: "Influence and sensitivity measures in correspondence analysis"
+  authors: "A. Bar-Hen, F. Mortier"
+  venue: "Statistics, 38(3), 207–215"
+  year: 2004
+  categories: [Article]
+- title: "A simple goodness-of-fit test for parametric regression models"
+  authors: "A. Bar-Hen, J.-J. Daudin"
+  venue: "Communications in Statistics – Theory and Methods, 33(6), 1357–1370"
+  year: 2004
+  categories: [Article]
+- title: "Étude du potentiel biotique d'Eretmocerus mundus dans des conditions contrôlées"
+  authors: "M.S. Bel Kadi, A. Ben Belgacem, J.C. Onillon, A. Bar-Hen, H. Ben Amor"
+  venue: "Revue des régions arides, 15, 63–80"
+  year: 2004
+  categories: [Article]
+- title: "Distributional results for FDR: application to genomic data"
+  authors: "A. Bar-Hen, S. Robin, J.-J. Daudin"
+  venue: "19th International Workshop on Statistical Modelling, Florence, 1000–1003"
+  year: 2004
+  categories: [Conference]
+- title: "Modelling diameter class distribution with a second-order matrix model"
+  authors: "N. Picard, A. Bar-Hen, Y. Guédon"
+  venue: "Forest Ecology and Management, 180(1–3), 389–400"
+  year: 2003
+  categories: [Article]
+- title: "Yield stability in Coffea canephora from diallel mating designs monitored for 14 years"
+  authors: "C. Cilas, P. Bouharmont, A. Bar-Hen"
+  venue: "Heredity, 91(5), 528–532"
+  year: 2003
+  categories: [Article]
+- title: "An iterative procedure for differential analysis of gene expression"
+  authors: "A. Bar-Hen, S. Robin"
+  venue: "Comptes Rendus Mathématique, 337(5), 343–346"
+  year: 2003
+  categories: [Article]
+- title: "Ascent rate, age, maximal oxygen uptake, adiposity, and circulating venous bubbles after diving"
+  authors: "D. Carturan, A. Boussuges, P. Vanuxem, A. Bar-Hen, H. Burnet, B. Gardette"
+  venue: "Journal of Applied Physiology, 93(4), 1349–1356"
+  year: 2002
+  categories: [Article]
+- title: "La corrélation spatiale entre la surface terrière des arbres et leur accroissement est-elle un bon indicateur de la compétition ?"
+  authors: "N. Picard, A. Bar-Hen"
+  venue: "Annals of Forest Science, 59(1), 41–51"
+  year: 2002
+  categories: [Article]
+- title: "Modeling forest dynamics with a combined matrix/individual-based model"
+  authors: "N. Picard, A. Bar-Hen, A. Franc"
+  venue: "Forest Science, 48(4), 643–652"
+  year: 2002
+  categories: [Article]
+- title: "Influence of missing data on compact designs for spacing experiments"
+  authors: "A. Bar-Hen"
+  venue: "Journal of Applied Statistics, 29(8), 1229–1240"
+  year: 2002
+  categories: [Article]
+- title: "Spatial pattern induced by asymmetric competition: a modeling approach"
+  authors: "N. Picard, A. Bar-Hen, A. Franc"
+  venue: "Natural Resource Modeling, 14(1), 147–175"
+  year: 2001
+  categories: [Article]
+- title: "Preliminary tests in linear discriminant analysis"
+  authors: "A. Bar-Hen"
+  venue: "Statistica, 61(4), 585–594"
+  year: 2001
+  categories: [Article]
+- title: "Comparing the likelihood functions of phylogenetic trees"
+  authors: "A. Bar-Hen, H. Kishino"
+  venue: "Annals of the Institute of Statistical Mathematics, 52(1), 43–56"
+  year: 2000
+  categories: [Article]
+- title: "Estimation of the envelope of a point set with loose boundaries"
+  authors: "N. Picard, A. Bar-Hen"
+  venue: "Applied Mathematics Letters, 13(7), 13–18"
+  year: 2000
+  categories: [Article]
+- title: "Information de Kullback-Leibler et génétique"
+  authors: "A. Bar-Hen"
+  venue: "Thesis"
+  year: 2000
+  categories: [Thesis]
+- title: "Selection in discriminant analysis with continuous and discrete variables"
+  authors: "J.-J. Daudin, A. Bar-Hen"
+  venue: "Computational Statistics & Data Analysis, 32(2), 161–175"
+  year: 1999
+  categories: [Article]
+- title: "Statistical models of molecular evolution and their comparison"
+  authors: "H. Kishino, J.L. Thorne, A. Bar-Hen"
+  venue: "Proceedings of the Business and Economic Statistics Section, American Statistical Association, 21"
+  year: 1999
+  categories: [Conference]
+- title: "Asymptotic distribution of Matusita's distance: application to the location model"
+  authors: "A. Bar-Hen, J.-J. Daudin"
+  venue: "Biometrika, 85, 477–481"
+  year: 1998
+  categories: [Article]
+- title: "Maximum likelihood procedure adapted to sampling schemes"
+  authors: "H. Kishino, A. Bar-Hen"
+  venue: "Journal of Statistical Planning and Inference, 70(2), 277–286"
+  year: 1998
+  categories: [Article]
+- title: "Parcelles permanentes de recherche en forêt dense tropicale humide : éléments pour une méthodologie d'analyse des données"
+  authors: "V. Favrichon, S. Gourlet-Fleury, A. Bar-Hen, H. Dessard"
+  venue: "CIRAD-Forêt, série FORAFRI"
+  year: 1998
+  categories: [Report]
+- title: "Dynamique de croissance dans les peuplements exploités et éclaircis de forêt dense africaine : dispositif de M'Baïki en République Centrafricaine (1982–1995)"
+  authors: "F. Bedel, L. Durrieu de Madron, B. Dupuy, V. Favrichon, H.-F. Maître, A. Bar-Hen, P. Narboni"
+  venue: "CIRAD-Forêt"
+  year: 1998
+  categories: [Report]
+- title: "Croissance et productivité en forêt dense humide : bilan des expérimentations dans le dispositif de Mopri, Côte d'Ivoire (1978–1992)"
+  authors: "L. Durrieu de Madron, V. Favrichon, B. Dupuy, A. Bar-Hen, H.-F. Maître, L. Houde"
+  venue: "CIRAD-Forêt"
+  year: 1998
+  categories: [Report]
+- title: "A test of a special case of typicality in linear discriminant analysis"
+  authors: "A. Bar-Hen, J.-J. Daudin"
+  venue: "Biometrics, 53, 39–48"
+  year: 1997
+  categories: [Article]
+- title: "Comparison of RFLP and morphological distances between maize (Zea mays L.) inbred lines: consequences for germplasm protection purposes"
+  authors: "C. Dillmann, A. Bar-Hen, D. Guérin, A. Charcosset"
+  venue: "Theoretical and Applied Genetics, 95, 92–102"
+  year: 1997
+  categories: [Article]
+- title: "A preliminary test in discriminant analysis"
+  authors: "A. Bar-Hen"
+  venue: "Journal of Multivariate Analysis, 57(2), 266–276"
+  year: 1996
+  categories: [Article]
+- title: "Estimating the bias on the logdeterminant transformation for evolutionary trees"
+  authors: "A. Bar-Hen, D. Penny"
+  venue: "Applied Mathematics Letters, 9(6), 1–5"
+  year: 1996
+  categories: [Article]
+- title: "Relationship between genetic markers and morphological traits in a maize inbred lines collection"
+  authors: "A. Bar-Hen, A. Charcosset, M. Bourgoin, J. Guiard"
+  venue: "Euphytica, 84(2), 145–154"
+  year: 1995
+  categories: [Article]
+- title: "Generalization of the Mahalanobis distance in the mixed case"
+  authors: "A. Bar-Hen, J.-J. Daudin"
+  venue: "Journal of Multivariate Analysis, 53(2), 332–342"
+  year: 1995
+  categories: [Article]
+- title: "Compétition entre génotypes dans des essais variétaux de colza oléagineux d'hiver"
+  authors: "J.-J. Schott, A. Bar-Hen, H. Monod, F. Blouet"
+  venue: "Cahiers Agricultures, 3(6), 377–383"
+  year: 1994
+  categories: [Article]
+- title: "Généralisation de la distance de Mahalanobis au cas du mélange de variables continues et discrètes. Applications aux études de distinction variétale"
+  authors: "A. Bar-Hen"
+  venue: "PhD thesis, Université Paris-Sud (Orsay)"
+  year: 1994
+  categories: [Thesis]
