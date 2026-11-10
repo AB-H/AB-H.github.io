@@ -3,19 +3,31 @@
 
 - title: "L'incroyable histoire des mathématiques"
   year: 2026
-  venue: "Les Arènes, Paris — comic book"
+  authors: "Q. Lazzarotto, T. Garnier, A. Bar-Hen"
+  venue: "Comic book, Les Arènes, collection « Les Incroyables Histoires », 320 p. — out 27 August 2026"
   categories: [Books]
-  url: https://catalogue.bnf.fr/ark:/12148/cb500240270
+  url: https://arenes.fr/livre/lincroyable-histoire-des-mathematiques/
 - title: "Dingue de maths : du penalty à la météo, décoder le réel"
   year: 2021
   authors: "A. Bar-Hen, Q. Lazzarotto"
   venue: "EPA, Vanves — preface by Cédric Villani"
   categories: [Books]
   url: https://catalogue.bnf.fr/ark:/12148/cb469031821
+- title: "La certitude absolue et autres illusions : les secrets de la statistique"
+  year: 2013
+  authors: "P. Grima"
+  venue: "RBA France, collection « Le monde est mathématique », no. 26 — proofreading and preface of the French edition by A. Bar-Hen"
+  categories: [Books]
+- title: "Plans de métro et réseaux neuronaux : la théorie des graphes"
+  year: 2013
+  authors: "C. Alsina"
+  venue: "RBA France, collection « Le monde est mathématique », no. 10 — proofreading and preface of the French edition by A. Bar-Hen"
+  categories: [Books]
+
 - title: "Statistiquement vôtre : choix aléatoire de sujets autour de la statistique"
   year: 2014
-  venue: "Statistiquement vôtre"
-  categories: [Books]
+  venue: "My blog on Sciences et Avenir (archived by the BnF web legal deposit)"
+  categories: [Blogs]
   url: https://catalogue.bnf.fr/ark:/12148/cb451944457
 
 - {title: "Ada Lovelace : la princesse des algorithmes", year: 2024, date: "2024-08-01", categories: [The Conversation], url: "https://theconversation.com/ada-lovelace-la-princesse-des-algorithmes-233306"}

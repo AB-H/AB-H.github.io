@@ -11,7 +11,7 @@ listing:
   date-format: "D MMMM YYYY"
 ---
 
-Beyond research, I enjoy explaining statistics and mathematics to everyone: in books, in [The Conversation](https://theconversation.com/profiles/avner-bar-hen-203304) and on the CNRS blog [Images des mathématiques](https://images.math.cnrs.fr/).
+Beyond research, I enjoy explaining statistics and mathematics to everyone: in books and comics, on my former Sciences et Avenir blog *Statistiquement vôtre*, in [The Conversation](https://theconversation.com/profiles/avner-bar-hen-203304) and on the CNRS blog [Images des mathématiques](https://images.math.cnrs.fr/).
 
 ::: {#outreach}
 :::
