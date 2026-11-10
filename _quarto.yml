@@ -4,6 +4,7 @@ project:
   resources:
     - CNAME
     - files/
+    - assets/
 
 lang: en
 
@@ -23,6 +24,8 @@ website:
         href: teaching.qmd
       - text: Writing
         href: https://theconversation.com/fr/search?q=Avner+Bar-Hen&sort=recency
+      - text: Co-authors
+        href: coauthors.qmd
       - text: Career
         href: past.qmd
       - text: Contact
