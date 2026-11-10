@@ -1,0 +1,37 @@
+---
+title: "Teaching"
+aliases:
+  - Cours.html
+---
+
+Current Cnam course material is available on [Moodle](https://lecnam.net/).
+
+## Older lecture notes (in French)
+
+::: {.card-grid}
+::: {}
+Probabilité et statistique pour les sciences de la vie
+
+[PDF](files/polys/DeugB.pdf)
+:::
+::: {}
+Méthodes mathématiques pour les sciences de la vie
+
+[PDF](files/polys/M23.pdf)
+:::
+::: {}
+Chaînes de Markov pour les sciences de la vie
+
+[PDF](files/polys/Biol.pdf)
+:::
+::: {}
+Introduction aux statistiques appliquées (orientation agronomie)
+
+[PDF](files/polys/Dea_bio.pdf)
+:::
+::: {}
+Compléments sur les processus
+
+[PDF](files/polys/Dea_mer.pdf)
+:::
+:::

@@ -1,0 +1,53 @@
+---
+title: "Avner Bar-Hen"
+subtitle: "Professor of Statistics · Cnam, Paris"
+image: images/avner.jpg
+image-alt: "Portrait of Avner Bar-Hen"
+about:
+  template: trestles
+  image-width: 14em
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:avner@cnam.fr
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.fr/citations?user=JZ3uW60AAAAJ
+    - icon: github
+      text: GitHub
+      href: https://github.com/AB-H
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/avnerb1/
+---
+
+::: {.lead-tagline}
+Statistician. These days I like to discuss data science, statistical learning and their applications — preferably over coffee.
+:::
+
+## What I am working on
+
+::: {.card-grid}
+::: {}
+Research
+
+Statistical methods for data mining and machine learning, team [MSDMA](https://cedric.cnam.fr/) of the [CEDRIC](https://cedric.cnam.fr/) lab.
+:::
+::: {}
+Teaching
+
+[EPN 6 — Mathematics & Statistics](https://maths.cnam.fr/), the national teaching team at Cnam.
+:::
+::: {}
+Master in Statistics
+
+Tracks *Data Science* and *Risk statistics for finance and insurance* at [Cnam](https://formation.cnam.fr/).
+:::
+:::
+
+## Research interests
+
+Spatial statistics · Graphical models and networks · Influence measures and stability · Classification trees · Statistics for life sciences and public health.
+
+See the [publications](publications.qmd) page, or my [Google Scholar profile](https://scholar.google.fr/citations?user=JZ3uW60AAAAJ) for an up-to-date list.

@@ -1,0 +1,77 @@
+# One entry per publication. To add a paper, copy a block and fill it in.
+# Fields: title, authors, venue, year, url (+ optional pdf, doi).
+- title: "Collective effectiveness in the XV de France: selections and time matter"
+  authors: "A. Sedeaud, G. Saulière, L.A. Marquet, S. Del Vecchio, A. Bar-Hen, J.-F. Toussaint"
+  venue: "European Journal of Sport Science, 17(6), 656–664"
+  year: 2017
+  url: https://www.researchgate.net/publication/314979990_Collective_effectiveness_in_the_XV_de_France_selections_and_time_matter
+- title: "Stochastic block model for multiplex networks: an application to a multilevel network of researchers"
+  authors: "P. Barbillon, S. Donnet, E. Lazega, A. Bar-Hen"
+  venue: "Journal of the Royal Statistical Society: Series A, 180, 295–314"
+  year: 2017
+  url: https://hal.science/hal-01520820/document
+- title: "Review of published articles on climate change and health in two francophone newspapers: 1990–2015"
+  authors: "M. Hemono, S. Puig-Malet, P. Zylberman, A. Bar-Hen, R. Sauerborn, S. Schütte, …, A. Depoux"
+  venue: "European Journal of Public Health, 26(suppl. 1), ckw174.031"
+  year: 2016
+  url: https://doi.org/10.1093/eurpub/ckw174.031
+- title: "Loss of papillary dermal calcitonin gene related peptide-expressing neurons significantly correlates with uremic pruritus"
+  authors: "T. Du, A. Bar-Hen, J.S. Bhatia, D. Wolpowitz"
+  venue: "Journal of Investigative Dermatology, 136(11), 2323–2325"
+  year: 2016
+  url: https://www.sciencedirect.com/science/article/pii/S0022202X16321182
+- title: "Public health and epidemiology informatics"
+  authors: "A. Flahault, A. Bar-Hen, N. Paragios"
+  venue: "IMIA Yearbook of Medical Informatics, 240–246"
+  year: 2016
+  url: https://doi.org/10.15265/IY-2016-032
+- title: "Climate change and human health: what are the research trends? A scoping review protocol"
+  authors: "N. Herlihy, A. Bar-Hen, G. Verner, H. Fischer, R. Sauerborn, A. Depoux, A. Flahault, S. Schütte"
+  venue: "BMJ Open, 6(12), e012022"
+  year: 2016
+  url: https://bmjopen.bmj.com/content/6/12/e012022
+- title: "Effects of competition on collective learning in advice networks"
+  authors: "E. Lazega, A. Bar-Hen, P. Barbillon, S. Donnet"
+  venue: "Social Networks, 47, 1–14"
+  year: 2016
+  url: http://elazega.fr/wp-content/uploads/2012/10/Competition-and-learning-Social-Networks-2016.pdf
+- title: "Detecting multi-way epistasis in family-based association studies"
+  authors: "C. Loucoubar, A.V. Grant, J.-F. Bureau, I. Casademont, N. Ardo Bar, A. Bar-Hen, et al., A. Sakuntabhai"
+  venue: "Briefings in Bioinformatics, 18(3), 394–402"
+  year: 2016
+  url: https://academic.oup.com/bib/article/18/3/394/2453295
+- title: "Influence measures and stability for graphical models"
+  authors: "A. Bar-Hen, J.-M. Poggi"
+  venue: "Journal of Multivariate Analysis, 147, 145–154"
+  year: 2016
+  url: https://www.researchgate.net/publication/292211486_Influence_measures_and_stability_for_graphical_models
+- title: "Spatial cluster detection using nearest neighbour distance"
+  authors: "A. Bar-Hen, M. Emily, N. Picard"
+  venue: "Spatial Statistics, 14, 400–411"
+  year: 2015
+  url: https://www.researchgate.net/publication/282598657_Spatial_cluster_detection_using_nearest_neighbor_distance
+- title: "Analyse statistique des profils et de l'activité des participants d'un MOOC"
+  authors: "A. Bar-Hen, N. Villa-Vialaneix, H. Javaux"
+  venue: "Revue internationale des technologies en pédagogie universitaire, 12(1–2), 11–22"
+  year: 2015
+  url: https://www.erudit.org/en/journals/ritpu/2015-v12-n1-2-ritpu02919/1038836ar.pdf
+- title: "Non-adaptive policies for 20 questions target localization"
+  authors: "E. Variani, K. Lahouel, A. Bar-Hen, B. Jedynak"
+  venue: "IEEE International Symposium on Information Theory (ISIT), 775–778"
+  year: 2015
+  url: https://arxiv.org/abs/1504.05996
+- title: "La presse parisienne et la grippe « espagnole » (1918–1920)"
+  authors: "A. Bar-Hen, P. Zylberman"
+  venue: "Les Tribunes de la santé, 47, 35–49"
+  year: 2015
+  url: https://www.cairn.info/article.php?ID_ARTICLE=SEVE_047_0035
+- title: "Characterization of the major bacterial–fungal populations colonizing dandruff scalps in Shanghai, China, shows microbial disequilibrium"
+  authors: "L. Wang, C. Clavaud, A. Bar-Hen, C. Meng, J. Gao, Y. Liu, et al., L. Breton"
+  venue: "Experimental Dermatology, 24(5), 398–400"
+  year: 2015
+  url: https://doi.org/10.1111/exd.12684
+- title: "Influence measures for CART classification trees"
+  authors: "A. Bar-Hen, S. Gey, J.-M. Poggi"
+  venue: "Journal of Classification, 32(1), 21–45"
+  year: 2015
+  url: https://hal.science/hal-00562039

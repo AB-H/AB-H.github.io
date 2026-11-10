@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - CNAME
+    - files/
+
+lang: en
+
+website:
+  title: "Avner Bar-Hen"
+  site-url: https://www.bar-hen.net
+  description: "Avner Bar-Hen — Professor of Statistics at Cnam, Paris."
+  favicon: images/avner.jpg
+  page-navigation: false
+  navbar:
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Writing
+        menu:
+          - text: The Conversation
+            href: https://theconversation.com/fr/search?q=Avner+Bar-Hen&sort=recency
+          - text: Sciences et Avenir (blog archive)
+            href: http://statistique.blogs.sciencesetavenir.fr/
+      - text: Career
+        href: past.qmd
+      - text: Contact
+        href: contact.qmd
+      - icon: github
+        href: https://github.com/AB-H
+        aria-label: GitHub
+  page-footer:
+    left: "© Avner Bar-Hen"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+      dark: [cosmo, styles-dark.scss, styles.scss]
+    toc: false
+    respect-user-color-scheme: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false

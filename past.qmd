@@ -1,0 +1,36 @@
+---
+title: "Career"
+aliases:
+  - Past.html
+---
+
+## Past positions
+
+::: {.timeline}
+- Laboratoire MAP5 — Mathématiques Appliquées, Université Paris Descartes · [site](https://map5.mi.parisdescartes.fr/)
+- LIMBIO / LIMICS, Université Paris 13 · [site](https://www.limics.fr/)
+- IMBE, Université Aix-Marseille III · [site](https://www.imbe.fr/)
+- Laboratoire de statistique et probabilités, Université Lille 1 · [site](https://math.univ-lille.fr/)
+- Cirad · [site](https://www.cirad.fr/)
+- Institute of Statistical Mathematics, Tokyo · [site](https://www.ism.ac.jp/)
+- UMR MIA Paris, AgroParisTech / INRAE · [site](https://mia-ps.inrae.fr/)
+:::
+
+## Past duties
+
+::: {.timeline}
+- Member of the Scientific Committee of the Haut Conseil des Biotechnologies (HCB)
+- Member of the CNECA
+- Member of the HCSP (Commission évaluation, stratégie et prospective) · [site](https://www.hcsp.fr/)
+- President of the Société Française de Statistique (SFdS) · [site](https://www.sfds.asso.fr/)
+- President of the Société Française de Biométrie (SFB)
+- Associate Editor, *Biometrics* · [site](https://academic.oup.com/biometrics)
+:::
+
+## Education
+
+::: {.timeline}
+- Laboratoire Math-Info, AgroParisTech
+- Université Paris-Sud (now Université Paris-Saclay) · [site](https://www.imo.universite-paris-saclay.fr/)
+- McGill University · [site](https://www.mcgill.ca/mathstat/)
+:::

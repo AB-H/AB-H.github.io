@@ -1,0 +1,40 @@
+/*-- scss:defaults --*/
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+$headings-font-family: "Source Serif 4", Georgia, serif;
+$primary: #1f5f8b !default;
+
+/*-- scss:rules --*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap');
+
+body { line-height: 1.65; }
+.navbar { border-bottom: 1px solid rgba(127,127,127,.18); }
+.navbar-brand .navbar-title { font-family: $headings-font-family; font-weight: 600; }
+h1, h2, h3 { font-weight: 600; letter-spacing: -0.01em; }
+h2 { margin-top: 2.2rem; }
+
+/* home page */
+.quarto-about-trestles .about-entity .about-image { border-radius: 50% !important; box-shadow: 0 6px 24px rgba(0,0,0,.12); }
+.lead-tagline { font-size: 1.15rem; opacity: .8; }
+
+/* cards */
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin: 1.25rem 0; }
+.card-grid > div { border: 1px solid rgba(127,127,127,.22); border-radius: .75rem; padding: 1rem 1.15rem; }
+.card-grid > div p { margin: 0; }
+.card-grid > div p:first-child { font-weight: 600; margin-bottom: .25rem; }
+
+/* publications */
+.pub-year { margin-top: 2rem; font-size: 1.35rem; border-bottom: 1px solid rgba(127,127,127,.25); padding-bottom: .25rem; }
+.pub { margin: .85rem 0; padding-left: .85rem; border-left: 3px solid rgba(31,95,139,.35); }
+.pub-title { font-weight: 600; }
+.pub-authors { font-size: .93rem; opacity: .85; }
+.pub-venue { font-size: .93rem; font-style: italic; }
+.pub-links a { font-size: .82rem; margin-right: .6rem; text-decoration: none; border: 1px solid currentColor; border-radius: 1rem; padding: 0 .55rem; }
+.pub-search { width: 100%; max-width: 420px; padding: .45rem .75rem; border-radius: .5rem; border: 1px solid rgba(127,127,127,.4); background: transparent; color: inherit; }
+
+/* timeline lists */
+.timeline ul { list-style: none; padding-left: 0; }
+.timeline li { padding: .45rem 0 .45rem 1.1rem; border-left: 2px solid rgba(31,95,139,.35); position: relative; }
+.timeline li::before { content: ""; position: absolute; left: -6px; top: .95rem; width: 10px; height: 10px; border-radius: 50%; background: $primary; }
+
+.map-frame iframe { width: 100%; min-height: 300px; border: 0; border-radius: .75rem; }
+.pub-yr { display: inline-block; font-size: .78rem; font-weight: 600; color: $primary; border: 1px solid currentColor; border-radius: .4rem; padding: 0 .35rem; margin-right: .35rem; vertical-align: .1em; }

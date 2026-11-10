@@ -2,4 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
-packrat/lib*/
+/.quarto/
+/_site/
+.DS_Store
+
+**/*.quarto_ipynb
