@@ -144,7 +144,7 @@
     if (singles.length) groups.push({ rank: -1, size: singles.length, lead: null, members: singles.map((c) => c.lead).join(", "), ranks: singles.map((c) => c.rank) });
     groups.forEach((c) => {
       const li = document.createElement("li");
-      li.innerHTML = `<span class="viz-swatch" style="background:${commColor(c.rank)}"></span><span>${c.lead ? `<b>${esc(c.lead)}</b> and co.` : "<b>Isolated co-authors</b>"} <span class="viz-muted">· ${c.size} people</span>${c.themes ? `<br><span class="viz-themes">${esc(c.themes)}</span>` : ""}<br><span class="viz-muted">${esc(c.members)}</span></span>`;
+      li.innerHTML = `<span class="viz-swatch" style="background:${commColor(c.rank)}"></span><span>${c.lead ? `<b>${esc(c.lead)}</b> and co.` : "<b>Isolated co-authors</b>"} <span class="viz-muted">· ${c.size} people${c.n_papers ? ` · ${c.n_papers} paper${c.n_papers > 1 ? "s" : ""} · ${c.period}` : ""}</span>${c.themes ? `<br><span class="viz-themes">${esc(c.themes)}</span>` : ""}<br><span class="viz-muted">${esc(c.members)}</span></span>`;
       li.tabIndex = 0;
       const on = () => highlight(c.ranks || [c.rank]);
       li.addEventListener("mouseenter", on);
