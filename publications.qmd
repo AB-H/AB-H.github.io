@@ -12,7 +12,7 @@ listing:
   fields: [title, authors, venue, year, url, categories]
 ---
 
-Selected list, from my [Google Scholar profile](https://scholar.google.fr/citations?user=JZ3uW60AAAAJ&view_op=list_works&sortby=pubdate). Use the box to search, or the categories to filter by type.
+Selected list, from my [Google Scholar profile](https://scholar.google.fr/citations?user=JZ3uW60AAAAJ&view_op=list_works&sortby=pubdate). Use the box to search, or the categories to filter by type. Books and articles for a general audience are on the [Outreach](outreach.qmd) page.
 
 ::: {#pubs}
 :::

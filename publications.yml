@@ -1,7 +1,8 @@
 # Publications, newest first. Source: Google Scholar BibTeX export (cleaned, duplicates removed).
 # To add a paper, copy a block. Fields: title, authors, venue, year, categories, and optional url.
 # Without url, the page links to a Google Scholar search on the title.
-# Categories: Article, Conference, Chapter, Preprint, Thesis, Report, Outreach, Software.
+# Categories: Article, Conference, Chapter, Book, Preprint, Thesis, Report, Software.
+# General-audience work lives in outreach.yml.
 
 - title: "Response time central-limit and failure rate estimation for stationary periodic rate monotonic real-time systems"
   authors: "K. Zagalo, A. Bar-Hen"
@@ -305,6 +306,12 @@
   venue: "PLoS ONE, 8(3), e58385"
   year: 2013
   categories: [Article]
+- title: "Advances in Theoretical and Applied Statistics"
+  authors: "N. Torelli, F. Pesarin, A. Bar-Hen (eds.)"
+  venue: "Springer, Studies in Theoretical and Applied Statistics"
+  year: 2013
+  categories: [Book]
+  url: https://doi.org/10.1007/978-3-642-35588-2
 - title: "A model-based dimension reduction approach to classification of gene expression data"
   authors: "L. Scrucca, A. Bar-Hen"
   venue: "In: Advances in Theoretical and Applied Statistics, Springer, 221–230"
@@ -315,11 +322,6 @@
   venue: "Hygiènes, 21(5), 233–235"
   year: 2013
   categories: [Article]
-- title: "Donnons aux citoyens accès aux données de santé"
-  authors: "A. Bar-Hen, A. Flahault"
-  venue: "Le Monde"
-  year: 2013
-  categories: [Outreach]
 - title: "Taxon influence index: assessing taxon-induced incongruities in phylogenetic inference"
   authors: "M. Mariadassou, A. Bar-Hen, H. Kishino"
   venue: "Systematic Biology, 61(2), 337–345"
@@ -404,11 +406,6 @@
   venue: "JOBIM 2011, 422"
   year: 2011
   categories: [Conference]
-- title: "La précognition est-elle démontrée ?"
-  authors: "A. Bar-Hen"
-  venue: "Images des mathématiques (CNRS)"
-  year: 2011
-  categories: [Outreach]
 - title: "Empirical comparison between some model selection criteria"
   authors: "A. Sayyareh, R. Obeidi, A. Bar-Hen"
   venue: "Communications in Statistics – Simulation and Computation, 40(1), 72–86"
@@ -429,11 +426,6 @@
   venue: "42es Journées de Statistique"
   year: 2010
   categories: [Conference]
-- title: "Les 150 ans de la Société de statistique de Paris"
-  authors: "A. Bar-Hen"
-  venue: "Images des mathématiques (CNRS)"
-  year: 2010
-  categories: [Outreach]
 - title: "CART algorithm for spatial data: application to environmental and ecological data"
   authors: "L. Bel, D. Allard, J.-M. Laurent, R. Cheddadi, A. Bar-Hen"
   venue: "Computational Statistics & Data Analysis, 53(8), 3082–3093"
@@ -485,11 +477,6 @@
   year: 2009
   categories: [Preprint]
   url: https://arxiv.org/abs/0906.0989
-- title: "Les sondages sont-ils devenus fous ?"
-  authors: "A. Bar-Hen, J. Chiche"
-  venue: "Images des mathématiques (CNRS)"
-  year: 2009
-  categories: [Outreach]
 - title: "A paradigm of diagnostic criteria for polyarteritis nodosa: analysis of a series of 949 patients with vasculitides"
   authors: "C. Henegar, C. Pagnoux, X. Puéchal, J.-D. Zucker, A. Bar-Hen, V. Le Guern, M. Saba, D. Bagnères, O. Meyer, L. Guillevin"
   venue: "Arthritis & Rheumatism, 58(5), 1528–1538"

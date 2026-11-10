@@ -1,0 +1,49 @@
+# General-audience work. Sections: Books, The Conversation, Images des mathématiques, Press.
+# Fields: title, year, categories, url, optional date, authors (co-authors), venue, note.
+
+- title: "L'incroyable histoire des mathématiques"
+  year: 2026
+  venue: "Les Arènes, Paris — comic book"
+  categories: [Books]
+  url: https://catalogue.bnf.fr/ark:/12148/cb500240270
+- title: "Dingue de maths : du penalty à la météo, décoder le réel"
+  year: 2021
+  authors: "A. Bar-Hen, Q. Lazzarotto"
+  venue: "EPA, Vanves — preface by Cédric Villani"
+  categories: [Books]
+  url: https://catalogue.bnf.fr/ark:/12148/cb469031821
+- title: "Statistiquement vôtre : choix aléatoire de sujets autour de la statistique"
+  year: 2014
+  venue: "Statistiquement vôtre"
+  categories: [Books]
+  url: https://catalogue.bnf.fr/ark:/12148/cb451944457
+
+- {title: "Ada Lovelace : la princesse des algorithmes", year: 2024, date: "2024-08-01", categories: [The Conversation], url: "https://theconversation.com/ada-lovelace-la-princesse-des-algorithmes-233306"}
+- {title: "Et si les mathématiques nous aidaient à gagner à l'Euromillions ?", year: 2021, date: "2021-10-25", categories: [The Conversation], url: "https://theconversation.com/et-si-les-mathematiques-nous-aidaient-a-gagner-a-leuromillions-170296"}
+- {title: "Dois-je vraiment être ici ? La malédiction du présentéisme au travail", year: 2019, date: "2019-11-03", categories: [The Conversation], url: "https://theconversation.com/dois-je-vraiment-etre-ici-la-malediction-du-presenteisme-au-travail-125959"}
+- {title: "Big data et innovation : c'est pour aujourd'hui ou pour demain ?", year: 2018, date: "2018-10-14", categories: [The Conversation], url: "https://theconversation.com/big-data-et-innovation-cest-pour-aujourdhui-ou-pour-demain-104908"}
+- {title: "Pourquoi j'écris pour The Conversation France", year: 2018, date: "2018-09-06", categories: [The Conversation], url: "https://theconversation.com/pourquoi-jecris-pour-the-conversation-france-1-102658"}
+- {title: "L'intelligence n'est ni artificielle ni innée", year: 2018, date: "2018-04-29", categories: [The Conversation], url: "https://theconversation.com/lintelligence-nest-ni-artificielle-ni-innee-95613"}
+- {title: "Un nouveau très grand nombre premier vient d'être découvert", year: 2018, date: "2018-02-05", categories: [The Conversation], url: "https://theconversation.com/un-nouveau-tres-grand-nombre-premier-vient-detre-decouvert-90183", alt_url: "https://theconversation.com/a-newly-discovered-prime-number-makes-its-debut-90666"}
+- {title: "Défiance à l'égard de la vaccination : retour sur l'expérience participative de 2016", year: 2017, date: "2017-07-03", authors: "A. Bar-Hen, P. Zylberman", categories: [The Conversation], url: "https://theconversation.com/defiance-a-legard-de-la-vaccination-retour-sur-lexperience-participative-de-2016-80382"}
+- {title: "Peut-on vraiment prévoir la probabilité de gagner une élection présidentielle ?", year: 2017, date: "2017-05-05", categories: [The Conversation], url: "https://theconversation.com/peut-on-vraiment-prevoir-la-probabilite-de-gagner-une-election-presidentielle-77254"}
+- {title: "Mathématiques électorales", year: 2017, date: "2017-04-10", categories: [The Conversation], url: "https://theconversation.com/mathematiques-electorales-75945"}
+- {title: "Mesurer l'inégalité entre les sexes : revue critique des principaux indices", year: 2017, date: "2017-03-07", categories: [The Conversation], url: "https://theconversation.com/mesurer-linegalite-entre-les-sexes-revue-critique-des-principaux-indices-74033"}
+
+- {title: "Efficacité des vaccins : derrière les nombres", year: 2020, date: "2020-12-20", categories: [Images des mathématiques], url: "https://images.math.cnrs.fr/billets/cn4c-65m1"}
+- {title: "Estimation de populations humaines et animales", year: 2015, date: "2015-06-03", categories: [Images des mathématiques], url: "https://images.math.cnrs.fr/billets/estimation-de-populations-humaines-et-animales/"}
+- {title: "Le cancer est-il dû à la malchance ?", year: 2015, date: "2015-02-02", categories: [Images des mathématiques], url: "https://images.math.cnrs.fr/billets/mctv-mtf7"}
+- {title: "Terrorisme et Islam : que disent les chiffres ?", year: 2015, date: "2015-01-26", categories: [Images des mathématiques], url: "https://images.math.cnrs.fr/billets/jhn1-zdfu"}
+- {title: "Recensement versus téléphone portable ?", year: 2014, date: "2014-12-10", categories: [Images des mathématiques], url: "https://images.math.cnrs.fr/billets/recensemement-versus-telephone-portable/"}
+- {title: "Taux de mortalité du virus Ebola", year: 2014, date: "2014-09-10", categories: [Images des mathématiques], url: "https://images.math.cnrs.fr/billets/utfq-jvwn"}
+- {title: "Statistique et danse pour l'enseignement", year: 2014, date: "2014-07-20", categories: [Images des mathématiques], url: "https://images.math.cnrs.fr/billets/statistique-et-danse-pour-lenseignement/"}
+- {title: "D'où viennent les voleurs de poules ?", year: 2014, date: "2014-06-17", categories: [Images des mathématiques], url: "https://images.math.cnrs.fr/billets/dou-viennent-les-voleurs-de-poules/"}
+- {title: "Google Maps et la cartographie", year: 2014, date: "2014-05-18", categories: [Images des mathématiques], url: "https://images.math.cnrs.fr/billets/google-maps-et-la-cartographie/"}
+- {title: "Élections piège(s) à équation(s)", year: 2014, date: "2014-04-19", categories: [Images des mathématiques], url: "https://images.math.cnrs.fr/billets/elections-pieges-a-equations/"}
+- {title: "Y'a-t-il un statisticien dans l'avion ?", year: 2014, date: "2014-03-20", categories: [Images des mathématiques], url: "https://images.math.cnrs.fr/billets/ya-t-il-un-statisticien-dans-lavion/"}
+- {title: "Les élections françaises sont-elles « normales » ?", year: 2012, date: "2012-01-15", categories: [Images des mathématiques], url: "https://images.math.cnrs.fr/billets/les-elections-francaises-sont-elles-normales/"}
+- {title: "La précognition est-elle démontrée ?", year: 2011, date: "2011-04-27", categories: [Images des mathématiques], url: "https://images.math.cnrs.fr/la-precognition-est-elle-demontree/"}
+- {title: "Les 150 ans de la Société de statistique de Paris", year: 2010, date: "2010-09-23", categories: [Images des mathématiques], url: "https://images.math.cnrs.fr/les-150-ans-de-la-societe-de-statistique-de-paris/"}
+- {title: "Les sondages sont-ils devenus fous ?", year: 2009, authors: "A. Bar-Hen, J. Chiche", categories: [Images des mathématiques]}
+
+- {title: "Donnons aux citoyens accès aux données de santé", year: 2013, authors: "A. Bar-Hen, A. Flahault", venue: "Le Monde (op-ed)", categories: [Press]}
