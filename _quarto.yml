@@ -5,6 +5,7 @@ project:
     - CNAME
     - files/
     - assets/
+    - Perso/
 
 lang: en
 
