@@ -19,13 +19,6 @@ Preview locally with `quarto preview` (or the *Render* button in RStudio).
 The co-author page needs R with the packages `rmarkdown`, `knitr`, `yaml`, `igraph` and `jsonlite`;
 it is recomputed from `publications.yml` at every build.
 
-## Unlisted files
-
-Files put in `Perso/` are published as is, without any link from the site
-and without appearing in the sitemap or the site search, e.g.
-`Perso/outil_formations.html` → <https://www.bar-hen.net/Perso/outil_formations.html>.
-They remain public for anyone who knows the address.
-
 ## Publishing
 
 Every push to `master` renders the site and deploys it with GitHub Actions
